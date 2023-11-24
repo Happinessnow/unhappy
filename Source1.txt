@@ -1,6 +1,6 @@
 [ Source1 ]
 ! Title: Source1
-! Version: 231122.1
+! Version: 231125.1
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
@@ -497,9 +497,10 @@ news.zum.com###layer_wrap
 news.zum.com###bottom_shopping_box
 ! ohmynews
 ||ojsimg.ohmynews.com/*/*/*/local_club_btn
+ohmynews.com##[src*="ohmynews.com/BBS_ADM_FILE/"]
+ohmynews.com##.arc-bottom-wrap > div > [href]
 ohmynews.com###scrollTop
 ohmynews.com##.ad_wrap
-ohmynews.com##.arc-bottom-wrap > div > [href]
 ohmynews.com##.faceb
 ohmynews.com##.footer_club
 ohmynews.com##.main_tis_ad
@@ -513,6 +514,7 @@ ohmynews.com##.new_ad7
 ohmynews.com##.new_ad8
 ohmynews.com##.support-box
 ohmynews.com##.support-omn
+ohmynews.com##.wing_gallery_banner
 ! rpm9
 rpm9.com##.ad_right120x600
 rpm9.com##div.ad_right300
@@ -595,18 +597,15 @@ modoodoc.com##.review_list_mobile_ad_event_click
 modoodoc.com##.show.modal-backdrop
 modoodoc.com##div.hospital_list_mobile_ad_event_click
 
-! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON
-||ad-img.ebaykorea.com^
-||cdn.discordapp.com/*$image
-||crab.baidu.com^$app=com.estrongs.android.pop
-||wemakeplace.club/ad/*
+! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st
+! aliexpress
 aliexpress.com###container-for-smart-banner
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
+! auction
 auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
-coocha.co.kr##.group-power-link
 ! coupang
 @@||/bannerunit/*
 ||ads-partners.coupang.com^
@@ -650,10 +649,12 @@ danawa.com###powerLinkArea
 gmarket.co.kr##.box__inner
 gmarket.co.kr##.ng-scope.banner
 gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
-interpark.com##.ad.couponContent
-lowchart.com##.btn-secondary.btn-fixed-download.btn
-qoo10.com##.m_ad_bnnr
-qoo10.com##.shr_rwrditm
+! lotteon
+lotteon.com###modals-container
+lotteon.com##.eventBanner
+lotteon.com##.productAdvertisement
+lotteon.com##.advertisement
+! tmon
 tmon.co.kr###_orderBanner
 tmon.co.kr###_wrapPromotionBanner
 tmon.co.kr###topline_ad
@@ -663,18 +664,27 @@ tmon.co.kr##.link_banner
 tmon.co.kr##.slider_banners
 tmon.co.kr##.special_banner
 tmon.co.kr##.topline_ad
+! wemakeprice
+||wemakeplace.club/ad/*
 wemakeprice.com###_cardBanner
 wemakeprice.com###_rollingBanner
 wemakeprice.com##.mix_global_banner
+! interpark
+interpark.com##.ad.couponContent
+! qoo10
+qoo10.com##.m_ad_bnnr
+qoo10.com##.shr_rwrditm
+! ssg
 ssg.com##.gnb_bnr_wrap
 ssg.com##.menu_ad
 ssg.com###ajaxMainMemberShipItem
+! etc
+lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
-! lotteon
-lotteon.com###modals-container
-lotteon.com##.eventBanner
-lotteon.com##.productAdvertisement
-lotteon.com##.advertisement
+||ad-img.ebaykorea.com^
+||cdn.discordapp.com/*$image
+||crab.baidu.com^$app=com.estrongs.android.pop
+coocha.co.kr##.group-power-link
 
 ! - Danawa(PC)
 danawa.com###danawa-gnb-banner
@@ -1374,9 +1384,7 @@ com##.detail-banner
 com##.premium-promo-row
 net##.idtunemklgfsrpchjoq
 net##.mkt_banner
-! 도박, 성인게임(불량) // 2023-NOV
-*##[src*="/side_banner/"]
-*##[href*="-ddd"]
+! 도박, 토토, 성인게임(불량) // 2023-NOV
 *##[href*="1bet1"]
 *##[href*="aarq"]
 *##[href*="agitbridge"]
@@ -1385,20 +1393,16 @@ net##.mkt_banner
 *##[href*="bhm123"]
 *##[href*="bneye"]
 *##[href*="btq"]
-*##[href*="cs-ca"]
 *##[href*="cuba"]
 *##[href*="dh651"]
 *##[href*="ffma"]
 *##[href*="gfa69"]
 *##[href*="guarante"]
 *##[href*="herbnewming"]
-*##[href*="lucky-"]
 *##[href*="luxurynara"]
 *##[href*="mmb"]
-*##[href*="mr-"]
 *##[href*="oplove"]
 *##[href*="play365a"]
-*##[href*="sun-"]
 *##[href*="svsv"]
 *##[href*="t.me/abcdcenter"]
 *##[href*="tgtg"]
@@ -1407,12 +1411,20 @@ net##.mkt_banner
 *##[href*="toto"]
 *##[href*="v210x10b"]
 *##[href*="wbet"]
-*##[href*="wn-st"]
-*##[href*="ww-ot"]
 *##[href*="yadong"]
 *##[href*="토토"]
+*##[src*="/side_banner/"]
+*##[href^="cs-ca.com"]
+*##[href^="mr-00.com"]
+*##[href^="rk-ccc.com"]
+*##[href^="tu-88.com"]
+*##[href^="wn-st.com"]
+*##[href^="ww-ot.com"]
+*##[href^="ww-wg.com"]
+*##[href^="yes.bet"]
 
 ! - 기타
+gsmarena.com##.pt-10.d-flex
 gamemeca.com###sliderBox
 gamemeca.com##.event-right
 phoneppu.com###div_laypopup

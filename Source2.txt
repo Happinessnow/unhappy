@@ -1,6 +1,6 @@
 [ Source2 ]
 ! Title: Source2
-! Version: 231122.1
+! Version: 231125.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -232,7 +232,6 @@
 ||www.jikgu.com^
 ||www.kingjjal.com^
 ||www.mypetcare.co.kr^
-||yandex.ru^
 
 ! - 기타
 @@||pizza.hyundaicard.com^

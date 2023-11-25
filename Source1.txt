@@ -1,6 +1,6 @@
 [ Source1 ]
 ! Title: Source1
-! Version: 231125.1
+! Version: 231125.2
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
@@ -1321,7 +1321,8 @@ youtube.com###ticker-content
 *##[src*="adv.imadrep.co.kr"]
 *##[src*="adjw.co.kr"]
 *##[src*="ad.reople.co.kr"]
-*##[href*="naver.com/channel/promotion"]
+*##[href*="/channel/promotion"]
+*##[href*="/cupang.php"]
 *##.video-banner-ad
 *##.video-banner-ad
 *##.top-banner
@@ -1423,7 +1424,9 @@ net##.mkt_banner
 *##[href^="ww-wg.com"]
 *##[href^="yes.bet"]
 
+
 ! - 기타
+daepiso.xyz##.carousel-item
 gsmarena.com##.pt-10.d-flex
 gamemeca.com###sliderBox
 gamemeca.com##.event-right

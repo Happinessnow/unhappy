@@ -1,5 +1,6 @@
 [ Source2 ]
 ! Title: Source2
+! Expires: 7 days
 ! Version: 231125.1
 
 ! - 쿠팡

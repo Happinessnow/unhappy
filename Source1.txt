@@ -1,7 +1,14 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231125.3
+! Version: 231130.1
+
+! pillyze.com
+pillyze.com###top-banner-swipe
+pillyze.com##.banner-wrap
+pillyze.com##.f-footer-banner-170
+pillyze.com##.f-footer-row1
+pillyze.com##.middle-banner
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
@@ -1228,6 +1235,10 @@ youtube.com##.float-mealbar
 youtube.com###watch7-sidebar-offer
 youtube.com###ticker-content
 
+! - twitch.tv / 트위치
+twitch.tv###twilight-sticky-footer-root
+twitch.tv##.consent-banner
+
 ! - Xiaomi Tracker
 ! com.miui.gallery
 ||161.117.98.244:443^
@@ -1255,6 +1266,65 @@ youtube.com###ticker-content
 ||lh3.googleusercontent.com^$important,app=kr.co.thecall
 ||fonts.googleapis.com^$important,app=kr.co.thecall
 ||gstatic.com^$important,app=kr.co.thecall
+
+! - meeco / 미코
+meeco.kr##.w_slide
+meeco.kr##.sidebar.sidebar2
+
+! - clien / 클리안
+clien.net##.view_center_idlfksyenf
+clien.net##.ad_banner
+clien.net##.side_posjduenfj
+
+! - ygosu / 와이고수
+ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
+ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
+
+! - taiwebs
+taiwebs.com###vi-smartbanner
+taiwebs.com##.adsbyvli
+
+! - en-ter, 에너지 캐시백
+en-ter.co.kr###js-popup-bg
+en-ter.co.kr##.js-popup.layer_pop
+en-ter.co.kr##.main_pop
+
+! - filetender
+filetender.com###sidebar
+filetender.com###sidebarl
+
+! - music-flo
+music-flo.com##.modal-wrap
+music-flo.com##.popup_w_img
+tvchak.com##.big-tit-area
+comcbt.com##center:nth-of-type(2)
+googlewph.com##.widget_media_image.widget_block.inner-padding.widget
+
+! - eyes mobile
+eyes.co.kr##.on.popup
+eyes.co.kr##.popup_main.popup_wra
+eyes.co.kr##.quick_menu
+eyes.co.kr##.top-goto
+
+! - gyeyang
+gyeyang.go.kr##.covid
+gyeyang.go.kr##div.boxCon:nth-of-type(1)
+gyeyang.go.kr###pzone
+
+! - iparking
+||ad.iparking.co.kr^
+||iparking.co.kr/banner^
+||yellow.contentsfeed.com^
+
+! - kraken
+krakenfiles.com###cm
+krakenfiles.com###cm-ov
+krakenfiles.com##.cc_div
+
+! - speedtest
+speedtest.net##.mobile-pretest
+speedtest.net##.result-area-ad
+speedtest.net##.prompt-modal
 
 ! - Ads Tags, 광고 태그
 @@||/banner/*$domain=coupang.com
@@ -1367,7 +1437,6 @@ net##.mkt_banner
 *##[href^="ww-wg.com"]
 *##[href^="yes.bet"]
 
-
 ! - 기타
 daepiso.xyz##.carousel-item
 gsmarena.com##.pt-10.d-flex
@@ -1376,9 +1445,6 @@ gamemeca.com##.event-right
 phoneppu.com###div_laypopup
 humoruniv.com###choo_web_read_top_wrap
 humoruniv.com##.adsbyadop
-twitch.tv###twilight-sticky-footer-root
-meeco.kr##.w_slide
-meeco.kr##.sidebar.sidebar2
 ||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
 asuratoon.com##.ai-sticky-widget
 ||i.keezip.com/ad/*
@@ -1399,50 +1465,6 @@ savein.io##.sm\:block
 streamtape.com###main-header
 uplus.co.kr##.crad--banner
 weather.go.kr##.on.ba-wrap
-! clien
-clien.net##.view_center_idlfksyenf
-clien.net##.ad_banner
-clien.net##.side_posjduenfj
-! taiwebs
-taiwebs.com###vi-smartbanner
-taiwebs.com##.adsbyvli
-! en-ter, 에너지 캐시백
-en-ter.co.kr###js-popup-bg
-en-ter.co.kr##.js-popup.layer_pop
-en-ter.co.kr##.main_pop
-! filetender
-filetender.com###sidebar
-filetender.com###sidebarl
-! music-flo
-music-flo.com##.modal-wrap
-music-flo.com##.popup_w_img
-tvchak.com##.big-tit-area
-comcbt.com##center:nth-of-type(2)
-googlewph.com##.widget_media_image.widget_block.inner-padding.widget
-! eyes
-eyes.co.kr##.on.popup
-eyes.co.kr##.popup_main.popup_wra
-eyes.co.kr##.quick_menu
-eyes.co.kr##.top-goto
-! gyeyang
-gyeyang.go.kr##.covid
-gyeyang.go.kr##div.boxCon:nth-of-type(1)
-gyeyang.go.kr###pzone
-! iparking
-||ad.iparking.co.kr^
-||iparking.co.kr/banner^
-||yellow.contentsfeed.com^
-! ygosu
-ygosu.com,ppss.kr,tgd.kr##+js(no-setTimeout-if, [native code], 0)
-ygosu.com##+js(abort-on-stack-trace, XMLHttpRequest.prototype.send, /th:\d+\s+[a-zA-Z]\d\/<@[^\t]+\t\s[a-zA-Z]\d@|th:\d+\s+in[a-zA-Z\d:;]+\t\s[a-zA-Z]\d\si/)
-! kraken
-krakenfiles.com###cm
-krakenfiles.com###cm-ov
-krakenfiles.com##.cc_div
-! speedtest
-speedtest.net##.mobile-pretest
-speedtest.net##.result-area-ad
-speedtest.net##.prompt-modal
 ||*.admakerhelp.com^
 ||*.adpopcorn.com^$important
 ||*.bdurl.net^$app=com.estrongs.android.pop
@@ -1457,7 +1479,6 @@ speedtest.net##.prompt-modal
 ||*.sgsnssdk.com^$app=com.estrongs.android.pop
 ||*.snow.me/v1/notice^$app=com.campmobile.snow,important
 ||*.ssl2.duapps.com^$app=com.estrongs.android.pop
-||[2404:6800:4005:820::200a]:443^
 ||albarich.com/$image
 ||ap.tnkfactory.com^
 ||api-es.doglobal.net^$app=com.estrongs.android.pop
@@ -1483,41 +1504,34 @@ speedtest.net##.prompt-modal
 ||www.mediacategory.com^
 any.do##.NotificationBarProvider
 apk4all.com##iframe.eww
-chatv1.com##.basic-banner
 codecguide.com##p:nth-of-type(8)
 cutx.me###cookie-pop
 dailyenter.*##.col-md-4
 douploads.net##[src="/images/StartDownload.gif"]
-gamingdial.com###col-right-yt
-github.com$@$link[rel="manifest"]
-healthymaster.xyz##div.row:nth-of-type(3)
-instoworld.*###text-2
-intoupload.net##.banneradshome
-kolompc.com##.alert.cookies-alert
 lrepacks.net##.dle_b_yandex
 lrepacks.net##iframe
-net###backgroundSmsLayer
-net##.popup_layer_con
-net##a.topdrama:nth-of-type(5)
-ok-name.co.kr##.footerBanner
-streamtape.com##.plyr-overlay
-techyneed.com##iframe
-trendyflix.xyz##.fb_reset
+kolompc.com##.alert.cookies-alert
 uploadrar.com###commonId > [href]
 uploadrar.com##.hide2
 uplod.ws###aswift_0
 uplod.ws###aswift_0_anchor
 uplod.ws###aswift_0_expand
+gamingdial.com###col-right-yt
+github.com$@$link[rel="manifest"]
+healthymaster.xyz##div.row:nth-of-type(3)
+instoworld.*###text-2
+intoupload.net##.banneradshome
+ok-name.co.kr##.footerBanner
+streamtape.com##.plyr-overlay
+techyneed.com##iframe
+trendyflix.xyz##.fb_reset
 withtalk.*##div.row
-xyz##div.bannerwrap
 youngja.org##div.row:nth-of-type(4)
-v.com###player-container
 
 ! - 기타 예외
 @@||mon-va.byteoversea.com^$domain=tiktok.com
 @@||/stat.js
 @@||api.onetouch.police.go.kr/mbl/rpt/*
-#@#.ad02
 @@||*.123movies.ag^
 @@||*.amazonaws.com^
 @@||*.christiandate.kr^

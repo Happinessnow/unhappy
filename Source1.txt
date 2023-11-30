@@ -855,7 +855,8 @@ play.afreecatv.com##.adshop_layer
 search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
-!#if m.naver_2023-June
+!#if ext_ublock
+!m.naver_2023-June
 naver.com###ad_timeboard
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
@@ -873,8 +874,10 @@ naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
-!#endif
-!#if m.naver_2023-Dec
+!#else
+!#
+!if ext_ublock
+!m.naver_2023-Dec
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
 naver.com##.type_load

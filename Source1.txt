@@ -860,8 +860,8 @@ play.afreecatv.com##.adshop_layer
 search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
-!#if ext_ublock
-!m.naver_2023-June
+!#if env_mobile
+! m.naver_2023-June
 naver.com###ad_timeboard
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW

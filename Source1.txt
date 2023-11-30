@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231130.1
+! Version: 231201.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -15,6 +15,7 @@ pillyze.com##.middle-banner
 @@||ds.jobkorea.kr^
 @@||fileco.jobkorea.co.kr^
 @@||img.jobkorea.kr^
+@@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
 ||i.jobkorea.kr/content/images/careerpath/img_banner.png$image
 ||file1.jobkorea.co.kr/Mailing/banner$image
 jobkorea.co.kr###banner-area
@@ -828,41 +829,34 @@ play.afreecatv.com##.adshop_layer
 ||reward-download.*.*.amazonaws.com^$app=com.gretech.gomplayerko
 ||reward-sdk.*.*.amazonaws.com^$app=com.gretech.gomplayerko
 
-! - Naver Ads + etc / domain + ## = Frame Removed / class (##.) / div id (###)
+! - Naver, 네이버
 @@||ace.naver.com^
+@@||common.like.naver.com^
 @@||l.m.naver.com^
 @@||lcs.naver.com^
 @@||learn.dict.naver.com^
 @@||m.naver.com/aside^
-@@||nelo2-col.navercorp.com^
 @@||nid.naver.com^
 @@||s.pstatic.net^
 @@||sp.naver.com^
 @@||wcs.naver.net^
-@@||common.like.naver.com^
-||ssl.pstatic.net/adimg*.search/*
+@@||nelo2-col.navercorp.com^
 ||*.nbms.naver.com^
-||event.impression-neo.naver.com^
 ||lcs.naver.com^
 ||service.whale.naver.com^
+||ssl.pstatic.net/adimg*.search/*
+||event.impression-neo.naver.com^
 ! Naver Search Ads
 ||*.ad.naver.com^
 ||ad.*.naver.com^
 ||adcr.naver.com^
 ||adcreative.naver.com^
 ||searchad.naver.com^
+search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
-search.naver.com##._ad.box
-search.shopping.naver.com##.adProduct_item__1zC9h
-msearch.shopping.naver.com##.adProduct_list_item__wli65
-! naver etc
-pcmap.place.naver.com##.l__qc.no_margin.place_section
-media.naver.com##.channel_add_wrap
-premium.naver.com##.bottom_layer
-! naver home, mobile
+!#if m.naver, mobile [2023-June]
 naver.com###ad_timeboard
-naver.com###ad_timeboard_tgtLREC
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
 naver.com###MM_SEARCH_SHOP_LIVE
@@ -877,29 +871,37 @@ naver.com##.id_cui_banner_nextmain
 naver.com##.ly_change_newmain
 naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
-naver.com##.MyView-module__ico_nplus2___UMBlQ
-naver.com##.MyView-module__link_new___lnR1w:nth-of-type(2)
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
-! naver news
-news.naver.com##.more_news2
-news.naver.com##.media_end_linked_more
-news.naver.com##.ad_box
-news.naver.com##._MY_CHANNEL_OFFICE_WRAP
+!#endif
+!#if m.naver, mobile [2023-Dec]
+naver.com###MM_search_todaynaver
+naver.com##.id_comp_napp_banner
+naver.com##.type_load
+naver.com##.id_comp_home_feed
+!#endif
+! news.naver, news
 news.naver.com##._da_banner
-! naver id
+news.naver.com##._MY_CHANNEL_OFFICE_WRAP
+news.naver.com##.ad_box
+news.naver.com##.col2_banner
+news.naver.com##.media_end_linked_more
+news.naver.com##.more_news2
+news.naver.com##.promotion
+! nid.naver
 nid.naver.com##.banner_wrap
 nid.naver.com##.floating.container
-! naver notice
+! notify.naver, 알림
 notify.naver.com##.comp_benefit
-! 네이버 까페(까페 앱, 까페 게시물 하단 까페 광고) 
-@@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
-@@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
-@@||ipada.cafe.naver.com^
+! blog.naver, 블로그
 @@||m.blog.naver.com^$popup
 blog.naver.com##.btm_banner
+! cafe.naver, 까페
+@@||ipada.cafe.naver.com^
+@@||cafeptthumb-phinf.pstatic.net^$image,domain=cafe.naver.com
 cafe.naver.com##.ad_area.AsideAdvert
 cafe.naver.com##.ArticleFormBanner
+cafe.naver.com##.aside_banner
 cafe.naver.com##.banner_inner
 cafe.naver.com##.botton.banner_add
 cafe.naver.com##.box_notice
@@ -911,57 +913,58 @@ cafe.naver.com##.home_theme
 cafe.naver.com##.link_area.AsideLink
 cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
+cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
+! comic.naver, webtoon, 웹툰
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
 comic.naver.com##.cont_app_banner
 comic.naver.com##.item_banner
 comic.naver.com$@$div[id="ppl_default_section"]
+! map.naver, 지도
 map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
-section.cafe.naver.com##.section_home_town
-section.cafe.naver.com##.aside_banner
 shopping.naver.com##.aside_aside__BUKDo
-shopping.naver.com##.banners_banner_area__1OxCJ
-shopping.naver.com##.banners_banner_area__t3hFI
 talk.naver.com##._marketingMessage
-! 네이버 페이
+! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
-pay.naver.com##.AiTEMS_article__2IsFM
-pay.naver.com##.PayService_banner__1qi9r
 pay.naver.com###pc_pay_paymenthistory
-pay.naver.com##.BottomAds_article__3qVXQ
-pay.naver.com##.NaverMembershipWide_article__1o6ig
+pay.naver.com##._orderDonePopup_commonBanner
 pay.naver.com##.area_recommend_ad
+pay.naver.com##.commonBannerArea
 pay.naver.com##.membership_sc
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-pay.naver.com##._orderDonePopup_commonBanner
-pay.naver.com##.commonBannerArea
+! naver etc
+pcmap.place.naver.com##.l__qc.no_margin.place_section
+media.naver.com##.channel_add_wrap
+premium.naver.com##.bottom_layer
 
 ! - WebToon / 웹툰 // 2023-Oct
-||wfwf*.com/*/*/logo*
 wfwf293.com,wfwf294.com,wfwf295.com,wfwf296.com,wfwf297.com,wfwf298.com,wfwf299.com,wfwf300.com,wfwf301.com,wfwf302.com,wfwf303.com,wfwf304.com,wfwf305.com,wfwf306.com,wfwf307.com,wfwf308.com,wfwf309.com,wfwf310.com,wfwf311.com,wfwf312.com,wfwf313.com##.modal-wrapper
-||fxfx*.com/*/*/logo*
-||wftoon*.com/*/*/logo*
-||wtwt*.com/*/*/logo*
-||newtoki*.com/*/logo*
+! webtoon logo
 ||booktoki*.com/img/logo*
-||manatoki*.net/*/*.gif?_=*$image
+||funbe*.com/*/*logo*
+||fxfx*.com/*/*/logo*
+||newtoki*.com/*/logo*
+||tkr*.com/img/*logo*
+||toonkor*.*/*/*logo*
+||wftoon*.com/*/*/logo*
+||wfwf*.com/*/*/logo*
+||wtwt*.com/*/*/logo*
 ||imgcloud*.net/*.gif$image
 ||imgcloud*.net/*.png$image
+||manatoki*.net/*/*.gif?_=*$image
 ! newtoki
 ||booktoki*.com/*/*.gif?_=*
 ||newtoki*.com/tokinbtoki/*.gif?_=*
 ||newtoki*.*/*/banner$image
 ||newtoki*.com/guarantee.php
 ! toonkor, tkr
-||toonkor*.*/*/*logo*
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
-||tkr*.com/img/*logo*
 tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##.alert_windows
 tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(6)
 tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(7)
@@ -980,7 +983,6 @@ tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
 ! 펀비, funbe
-||funbe*.com/*/*logo*
 ||funbe*.com/images/*.gif
 ||funbe*.com/bann
 com##.mobile-banner.col-md-12
@@ -1030,19 +1032,25 @@ tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
 cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
 
-! - TV, 만화, 웹툰, 웹소설, 스포츠라이브
+! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 ! 누누티비 / 누누티비.tv / 티비위키(tvwiki)
 @@||assets.request-support.com/images/$image
 @@||images.request-support.com/images/$image
 ||static.wixstatic.com/media$image
 ||images.request-support.com/br/*?v=*%2000:*:$image
 gg##.partner-banner-content
-top##[href*="bannerhit"]
+*##[href*="bannerhit"]
 top##.partner-br-wrap
 top##.partner-banner-content
 top##.partner-banner-content
 top##.partner-banner-flex:nth-of-type(1)
 top##.partner-banner-flex:nth-of-type(2)
+! dasibogo, 다시보고
+dasibogo.net##.wp-block-image
+dasibogo.net##.wp-block-gallery-is-layout-flex
+dasibogo.net##.wp-block-gallery
+dasibogo.net##.vc_row:nth-of-type(1)
+dasibogo.net##.vc_row:nth-of-type(3)
 ! linkkf.app / linkkf.tv
 linkkf.tv###banner
 linkkf.app###banner
@@ -1398,7 +1406,7 @@ com##.detail-banner
 com##.premium-promo-row
 net##.idtunemklgfsrpchjoq
 net##.mkt_banner
-! 도박, 토토, 성인게임(불량) // 2023-NOV
+! 도박, 토토, 성인게임(불량) // 2023-Dec
 *##[href*="1bet1"]
 *##[href*="aarq"]
 *##[href*="agitbridge"]
@@ -1427,15 +1435,21 @@ net##.mkt_banner
 *##[href*="wbet"]
 *##[href*="yadong"]
 *##[href*="토토"]
-*##[src*="/side_banner/"]
-*##[href^="cs-ca.com"]
+*##[href^="http://sun-4488.com/"]
+*##[href^="https://카림안내.com"]
 *##[href^="mr-00.com"]
+*##[href="https://mr-113.com/"]
 *##[href^="rk-ccc.com"]
 *##[href^="tu-88.com"]
 *##[href^="wn-st.com"]
+*##[href="http://wn-st.com/"]
 *##[href^="ww-ot.com"]
+*##[href="http://ww-ot.com/"]
 *##[href^="ww-wg.com"]
 *##[href^="yes.bet"]
+*##[href="http://cs-ca.com/"]
+*##[href="https://xn--vv0b56ah5v.net/"]
+*##[src*="/side_banner/"]
 
 ! - 기타
 daepiso.xyz##.carousel-item

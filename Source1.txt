@@ -692,7 +692,6 @@ lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
 ||cdn.discordapp.com/*$image
-||crab.baidu.com^$app=com.estrongs.android.pop
 coocha.co.kr##.group-power-link
 
 ! - Danawa(PC)
@@ -714,16 +713,18 @@ danawa.com##li.ad.shop_link_item
 @@||121.53.205.66:1009^
 @@||aem-collector.daumkakao.io^
 @@||kauth.kakao.com^
-@@||kauth.kakao.com^$app=com.kakao.talk
 @@||mud-kage.kakaocdn.net^
-@@||mud-kage.kakaocdn.net^$app=com.kakao.talk
 @@||search1.daumcdn.net^
-@@||search1.daumcdn.net^$app=com.kakao.talk
 @@||videoads.kakao.com^
-@@||videostats.kakao.com^$app=com.kakao.talk
 @@||t1.daumcdn.net/*/subway/*
 @@||mk.kakaocdn.net^$domain=map.kakao.com
+!#if env_mobile
+@@||kauth.kakao.com^$app=com.kakao.talk
+@@||mud-kage.kakaocdn.net^$app=com.kakao.talk
+@@||search1.daumcdn.net^$app=com.kakao.talk
+@@||videostats.kakao.com^$app=com.kakao.talk
 ||mk.kakaocdn.net/$important,app=com.kakao.talk
+!#endif
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
@@ -755,7 +756,9 @@ shoppinghow.kakao.com##.wrap_shoppingad
 
 ! - tistory
 @@||www.tistory.com^
+!#if env_mobile
 @@||www.tistory.com^$app=com.kakao.talk
+!#endif
 tistory.com##.adfit.revenue_unit_item
 tistory.com##.kakao_ad_area
 tistory.com##.revenue_unit_wrap
@@ -803,6 +806,7 @@ play.afreecatv.com##.adshop_layer
 @@||*.samsungdm.com^
 ||img.samsungmembers.com/default/banner^
 
+!#if env_mobile
 ! - Tmap app / ($app=com.skt.tmap.ku)
 @@||cdn.tmap.co.kr/tmapweb^$app=com.skt.tmap.ku
 ||s.mfinder.co.kr^$app=com.skt.tmap.ku
@@ -828,6 +832,7 @@ play.afreecatv.com##.adshop_layer
 ||api.*.avatye.com^$app=com.gretech.gomplayerko
 ||reward-download.*.*.amazonaws.com^$app=com.gretech.gomplayerko
 ||reward-sdk.*.*.amazonaws.com^$app=com.gretech.gomplayerko
+!#endif
 
 ! - Naver, 네이버
 @@||ace.naver.com^
@@ -1267,14 +1272,6 @@ twitch.tv##.consent-banner
 ||49.51.130.25
 ||oversea-appcfg.blackshark.com^
 
-! - thecall / 더콜앱
-||encrypted-tbn0.gstatic.com^$important,app=kr.co.thecall
-||encrypted-tbn1.gstatic.com^$important,app=kr.co.thecall
-||encrypted-tbn2.gstatic.com^$important,app=kr.co.thecall
-||lh3.googleusercontent.com^$important,app=kr.co.thecall
-||fonts.googleapis.com^$important,app=kr.co.thecall
-||gstatic.com^$important,app=kr.co.thecall
-
 ! - meeco / 미코
 meeco.kr##.w_slide
 meeco.kr##.sidebar.sidebar2
@@ -1481,39 +1478,29 @@ uplus.co.kr##.crad--banner
 weather.go.kr##.on.ba-wrap
 ||*.admakerhelp.com^
 ||*.adpopcorn.com^$important
-||*.bdurl.net^$app=com.estrongs.android.pop
-||*.ctobsnssdk.com^$app=com.estrongs.android.pop
 ||*.exelbid.com^
 ||*.keywordsconnect.com^
 ||*.nbryb.com^
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
 ||*.piclick.kr^
-||*.pstatp.com^$app=com.estrongs.android.pop
-||*.sgsnssdk.com^$app=com.estrongs.android.pop
 ||*.snow.me/v1/notice^$app=com.campmobile.snow,important
-||*.ssl2.duapps.com^$app=com.estrongs.android.pop
 ||albarich.com/$image
 ||ap.tnkfactory.com^
-||api-es.doglobal.net^$app=com.estrongs.android.pop
 ||b.cdnst.net/images/speedtestMobileAds^
 ||bank-times.com^
 ||catad5959.com/$subdocument
 ||cdn-f.adsmoloco.com^
 ||ifh.cc/*/$image
-||is.snssdk.com^$app=com.estrongs.android.pop
 ||kingjjal.com/$subdocument
 ||log.snow.me^$app=com.snowcorp.soda.android
 ||m.shopping.nate.com^$domain=m.mail.nate.com
-||m.stripe.com^$app=com.estrongs.android.pop
 ||mplad.ahnlab.com:8880^$important
-||open.e.kuaishou.com^$app=com.estrongs.android.pop
 ||petzoa.co.kr/$subdocument
 ||rsload.net/images5/$image
 ||scontent.fvca1-*.fna.fbcdn.net/$image
 ||smrmembers-smr.smartmediarep.com^
 ||spontaneousguarded.com^
-||static.yximgs.com^$app=com.estrongs.android.pop
 ||studiouniversal.net/banner$image
 ||www.mediacategory.com^
 any.do##.NotificationBarProvider

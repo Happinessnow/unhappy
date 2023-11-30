@@ -874,10 +874,7 @@ naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
-!#else
-!#
-!if ext_ublock
-!m.naver_2023-Dec
+! m.naver_2023-Dec
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
 naver.com##.type_load

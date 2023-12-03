@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231202.1
+! Version: 231202.3
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1411,7 +1411,6 @@ net##.mkt_banner
 *##[href*="bannerhit"]
 *##[href*="bhm123"]
 *##[href*="bneye"]
-*##[href*="btq"]
 *##[href*="cuba"]
 *##[href*="dh651"]
 *##[href*="ffma"]

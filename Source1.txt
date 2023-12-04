@@ -586,6 +586,7 @@ dt.co.kr##div.bk40
 etnews.com##div.ad_300x250
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
+||www.businesspost.co.kr/*/banner/*/$image
 
 ! - 모두닥
 modoodoc.com###ad-post
@@ -606,7 +607,7 @@ modoodoc.com##.review_list_mobile_ad_event_click
 modoodoc.com##.show.modal-backdrop
 modoodoc.com##div.hospital_list_mobile_ad_event_click
 
-! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st
+! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜)
 ! aliexpress
 aliexpress.com###container-for-smart-banner
 aliexpress.com##.pop-picture
@@ -687,6 +688,9 @@ qoo10.com##.shr_rwrditm
 ssg.com##.gnb_bnr_wrap
 ssg.com##.menu_ad
 ssg.com###ajaxMainMemberShipItem
+! tdeal / T딜
+||cdn.tdeal.kr/images/banners$image
+tdeal.kr##.topBanner__content
 ! etc
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
@@ -837,8 +841,6 @@ play.afreecatv.com##.adshop_layer
 ! - Naver, 네이버
 @@||ace.naver.com^
 @@||common.like.naver.com^
-@@||l.m.naver.com^
-@@||lcs.naver.com^
 @@||learn.dict.naver.com^
 @@||m.naver.com/aside^
 @@||nid.naver.com^
@@ -878,10 +880,13 @@ naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver_2023-Dec
+
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
 naver.com##.type_load
-naver.com##.id_comp_home_feed
+naver.com##.MM_GIFT_FLICK_BANNER
+naver.com##.id_comp_guarantee_banner
+naver.com##.csm_title_wrap
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP

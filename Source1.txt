@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231204.2
+! Version: 231204.3
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -880,7 +880,8 @@ naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver_2023-Dec
-
+m.naver.com##div.id_comp_home_feed
+m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
 naver.com##.type_load

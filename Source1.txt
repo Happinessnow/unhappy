@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231204.1
+! Version: 231204.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -870,7 +870,6 @@ naver.com##._MM_HOME_PROMOTION_PROMOTION
 naver.com##.comp_banner
 naver.com##.id_comp_anniversary_banner
 naver.com##.id_comp_commemoration_banner.ISSUE-BANNER-AD
-naver.com##.id_comp_shortform_new
 naver.com##.id_cui_airsguide
 naver.com##.id_cui_banner_nextmain
 naver.com##.ly_change_newmain
@@ -881,6 +880,7 @@ naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver_2023-Dec
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
+naver.com##.type_load
 naver.com##.id_comp_home_feed
 ! news.naver, news
 news.naver.com##._da_banner
@@ -927,7 +927,6 @@ comic.naver.com$@$div[id="ppl_default_section"]
 map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
-shopping.naver.com##.aside_aside__BUKDo
 talk.naver.com##._marketingMessage
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems

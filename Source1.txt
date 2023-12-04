@@ -881,7 +881,6 @@ naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver_2023-Dec
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
-naver.com##.type_load
 naver.com##.id_comp_home_feed
 ! news.naver, news
 news.naver.com##._da_banner

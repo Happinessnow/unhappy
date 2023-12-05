@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231204.3
+! Version: 231205.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1165,18 +1165,16 @@ rtxkeeda.com##.NewBlock1 > [src]
 a-ads.com##.aa_container
 
 ! - watcha
-! list-kr 예외
-watcha.com#@#section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
-! 광고만 재 차단
-watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"]):has-text( · AD)
+!watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
+! chk - 231205
+!watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"]):has-text( · AD)
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
 watcha.com##[href^="https://watcha.com/contents/"]
 watcha.com##[href^="https://watcha.com/staffmades/"]
-watcha.com#?#section[class*="StyledEventBannerSection"]
-watcha.com##[href*="wcha.it"]
-watcha.com##[href*="xexymix.com"]
-pedia.watcha.com##.desktop
-
+!watcha.com#?#section[class*="StyledEventBannerSection"]
+!watcha.com#@#[href*="wcha.it"]
+!watcha.com#@#[href*="xexymix.com"]
+!pedia.watcha.com#@#.desktop
 ! - apk-store
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget

@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231205.1
+! Version: 231206.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1169,7 +1169,7 @@ a-ads.com##.aa_container
 ! chk - 231205
 !watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"]):has-text( · AD)
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-!watcha.com##[href^="https://watcha.com/contents/"]
+watcha.com##[href^="https://watcha.com/contents/"]
 !watcha.com##[href^="https://watcha.com/staffmades/"]
 !watcha.com#?#section[class*="StyledEventBannerSection"]
 !watcha.com#@#[href*="wcha.it"]

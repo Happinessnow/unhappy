@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231206.1
+! Version: 231206.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -848,6 +848,7 @@ play.afreecatv.com##.adshop_layer
 @@||sp.naver.com^
 @@||wcs.naver.net^
 @@||nelo2-col.navercorp.com^
+@@||s.search.naver.com^$domain=m.search.naver.com
 ||*.nbms.naver.com^
 ||lcs.naver.com^
 ||service.whale.naver.com^
@@ -880,6 +881,7 @@ naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver_2023-Dec
+
 m.naver.com##div.id_comp_home_feed
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
 naver.com###MM_search_todaynaver

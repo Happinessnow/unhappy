@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231206.2
+! Version: 231209.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1229,7 +1229,6 @@ lpoint.com###TopSwiperBanner
 ||www.youtube.com/embed/$subdocument
 ||www.gstatic.com/cv/js/*
 youtube.com##ytd-rich-section-renderer
-youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
 youtube.com##.ytp-scroll-min.ytp-pause-overlay
 youtube.com##.ytp-related-on-error-overlay
 youtube.com##.ytp-pause-overlay

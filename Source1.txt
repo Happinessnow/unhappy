@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Version: 231209.1
+! Version: 231220.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1132,6 +1132,7 @@ terabox.com##.overlay
 terabox.com##.seo-banner-box
 terabox.com##.coupon-Popup-box
 terabox.com##.membership-entry
+1024tera.com##.ad-eggplant
 1024tera.com##.notification-wrap
 1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
 1024tera.com##.dialog-extra-del
@@ -1144,6 +1145,7 @@ terabox.com##.membership-entry
 1024tera.com##.seo-banner-box
 1024tera.com##.coupon-Popup-box
 1024tera.com##.membership-entry
+
 
 ! - a2zapk
 @@||a2z.a2zapk.io^
@@ -1332,6 +1334,17 @@ speedtest.net##.mobile-pretest
 speedtest.net##.result-area-ad
 speedtest.net##.prompt-modal
 
+! cosmorning.com
+cosmorning.com##.banner_wrap
+cosmorning.com##.com_ban
+cosmorning.com##.banner_slide
+cosmorning.com###subscPop
+
+! wetv.vip
+wetv.vip##.minipay-ifame
+wetv.vip##.minipay-bg
+wetv.vip##.modal__content
+
 ! - Ads Tags, 광고 태그
 @@||/banner/*$domain=coupang.com
 *##.google-ad
@@ -1449,6 +1462,9 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+kfdn.co.kr##[href^="/ad_link.php"]
+kfdn.co.kr###ad_link_read
+pirate4all.com##[href^="https://pirate4all.com/out/"]
 daepiso.xyz##.carousel-item
 gsmarena.com##.pt-10.d-flex
 gamemeca.com###sliderBox

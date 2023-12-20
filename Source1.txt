@@ -1250,6 +1250,10 @@ youtube.com##.iv-merch-shelf
 youtube.com##.float-mealbar
 youtube.com###watch7-sidebar-offer
 youtube.com###ticker-content
+youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
+
 
 ! - twitch.tv / 트위치
 twitch.tv###twilight-sticky-footer-root

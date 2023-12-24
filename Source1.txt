@@ -1,7 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Expires: 7 days
-! Homepage: kakaoopen://join?l=g1O5SExd&r=EW
+! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Version: 231224.1
 
 ! pillyze.com

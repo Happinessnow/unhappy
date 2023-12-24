@@ -1,6 +1,7 @@
 [ Source2 ]
 ! Title: Source2
 ! Expires: 7 days
+! Homepage: kakaoopen://join?l=g1O5SExd&r=EW
 ! Version: 231218.1
 
 ! - 쿠팡

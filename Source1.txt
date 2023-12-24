@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231224.1
+! Version: 231224.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1000,8 +1000,10 @@ com##.mobile-banner.col-md-12
 sub.manhwa.co.kr##.main_banner_left01_box
 sub.manhwa.co.kr###main_banner_first_top_box
 ||sub.manhwa.co.kr/img/detail_google_appdown_banner.jpg$image
-! 11toon, 103.204.13.68, 156.239.152.53:9200
+! 11toon, 103.204.13.68, 103.204.13.68:8901
+@@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
 ||wwwimageup.angle777899.com$image
+/other/atoona$image
 103.204.13.68###adsbig3
 103.204.13.68##.mobile-m
 103.204.13.68##.ad720_90
@@ -1013,17 +1015,6 @@ sub.manhwa.co.kr###main_banner_first_top_box
 103.204.13.68##.nav-main__link--more.nav-main__link
 103.204.13.68##.popups
 103.204.13.68##.topBanner
-156.239.152.53###adsbig3
-156.239.152.53##.mobile-m
-156.239.152.53##.ad720_90
-156.239.152.53###free-genre-list > li:nth-of-type(1)
-156.239.152.53###free-genre-list > li:nth-of-type(2)
-156.239.152.53###free-genre-list > li:nth-of-type(3)
-156.239.152.53###free-genre-list > li:nth-of-type(4)
-156.239.152.53###free-genre-list > li:nth-of-type(5)
-156.239.152.53##.nav-main__link--more.nav-main__link
-156.239.152.53##.popups
-156.239.152.53##.topBanner
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n

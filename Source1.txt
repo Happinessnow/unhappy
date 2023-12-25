@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231225.3
+! Version: 231225.4
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1402,6 +1402,7 @@ wetv.vip##.modal__content
 ||cdn-ao.adison.co^
 ||i.uuoobe.com^
 ||images2.imgbox.com/*_o.gif$image
+||imageaws.popin.cc^
 ||koreanzad.xyz/*.gif^$image
 ||www.kodcad.kr^
 ||www.play-store.co.kr/ads$subdocument
@@ -1460,6 +1461,11 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+msnews/edgenext
+msnews/libs^
+msnews/node_modules^
+||ntp.msn.com/edge/ntp/*.js^
+||ntp.msn.com/bundles/*/edgechromium^
 kfdn.co.kr##[href^="/ad_link.php"]
 kfdn.co.kr###ad_link_read
 pirate4all.com##[href^="https://pirate4all.com/out/"]

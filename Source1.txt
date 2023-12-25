@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231225.1
+! Version: 231225.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -83,6 +83,7 @@ kayak.co.kr##.n_yf
 kayak.co.kr##.IIxj
 
 ! - inven
+inven.co.kr#@#.banner
 ||zicf.inven.co.kr/*/ads/^
 inven.co.kr###commonpart_gamepc
 inven.co.kr###commonpart_market
@@ -94,7 +95,6 @@ inven.co.kr##.ad-left
 inven.co.kr##.ad-right
 inven.co.kr##.ad-right-side
 inven.co.kr##.ad-right2
-inven.co.kr##.banner
 inven.co.kr##.bbs-middle-ad
 inven.co.kr##.center-part
 inven.co.kr##.commu-right div:nth-of-type(3)

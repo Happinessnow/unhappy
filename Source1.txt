@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231225.2
+! Version: 231225.3
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1032,6 +1032,10 @@ tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(9)
 tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
 cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
+
+! 라프텔, laftel.net
+||service.iamport.kr^
+||iamport.kr^
 
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image

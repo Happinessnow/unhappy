@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231231.2
+! Version: 231231.3
 
 ! pillyze.com
 pillyze.com###top-banner-swipe

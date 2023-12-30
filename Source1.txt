@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231231.1
+! Version: 231231.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -620,7 +620,8 @@ auction.co.kr##.module_slot.promo
 ! coupang
 @@||/bannerunit/*
 ||ads-partners.coupang.com^
-||static.coupangcdn.com/ga/cmg_paperboy/image/*/$image
+||static.coupangcdn.com/*/cmg_paperboy/image/*/$image
+||static.coupangcdn.com/*/banner$image
 coupang.com##div.keen-slider__slide
 coupang.com##.trending_ads
 coupang.com##.srp-top-banner-container
@@ -1251,14 +1252,11 @@ youtube.com##.iv-merch-shelf
 youtube.com##.float-mealbar
 youtube.com###watch7-sidebar-offer
 youtube.com###ticker-content
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
 www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
-
-! - twitch.tv / 트위치
-twitch.tv###twilight-sticky-footer-root
-twitch.tv##.consent-banner
+||doubleclick.net^$xhr,redirect-rule=noop.txt
 
 ! - Xiaomi Tracker
 ! com.miui.gallery

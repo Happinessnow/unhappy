@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240102.1
+! Version: 240108.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -658,9 +658,11 @@ danawa.com###adSmartArea
 danawa.com###adSmartArea2
 danawa.com###powerLinkArea
 ! gmarket
+||ad-img.gmarket.com/ADS$image
 gmarket.co.kr##.box__inner
 gmarket.co.kr##.ng-scope.banner
 gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
+gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
 ! lotteon
 lotteon.com###modals-container
 lotteon.com##.eventBanner
@@ -1095,7 +1097,11 @@ lol/wp-content/uploads/*/*.gif
 lol##figure.size-full.wp-block-image
 !! 토렌트
 ! torrentqq
+com##.row-banner
+com##.at-banner
 ||i.imgur.com/*.jpg$image
+||i.imgur.com/*.gif$image
+
 ! etoland
 etoland.co.kr##.youtube-container
 etoland.co.kr##.main-top-banner

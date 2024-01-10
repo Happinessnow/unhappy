@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240108.1
+! Version: 240111.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1059,11 +1059,8 @@ top##.partner-banner-content
 top##.partner-banner-flex:nth-of-type(1)
 top##.partner-banner-flex:nth-of-type(2)
 ! dasibogo, 다시보고
-dasibogo.net##.wp-block-image
-dasibogo.net##.wp-block-gallery-is-layout-flex
-dasibogo.net##.wp-block-gallery
-dasibogo.net##.vc_row:nth-of-type(1)
-dasibogo.net##.vc_row:nth-of-type(3)
+*##figure.size-full.wp-block-image
+*##.wp-block-gallery-1.wp-block-gallery
 ! koreanz
 koreanz.xyz##div:nth-of-type(4)
 ! sonagitv.live / info

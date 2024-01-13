@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240111.1
+! Version: 240113.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -827,6 +827,11 @@ play.afreecatv.com##.adshop_layer
 ||smart.link^$app=com.skt.tmap.ku
 ||search.tmap.co.kr/static/*banner*$app=com.skt.tmap.ku
 ||frontman.tmobiapi.com^$app=com.skt.tmap.ku
+
+! - oilnow
+carmmunity.oilnow.co.kr##.swiper-wrapper
+carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
+||wecandeo.com^
 
 ! - GomPlayer
 @@||*.ibytedtos.com^$stylesheet

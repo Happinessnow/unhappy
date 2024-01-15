@@ -1478,6 +1478,8 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+softwareok.com##td:nth-of-type(2) > center
+softwareok.com##center:nth-of-type(2)
 karanpc.com##.litespeed-loaded.entered.aligncenter
 msnews/edgenext
 msnews/libs^

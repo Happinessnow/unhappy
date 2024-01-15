@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240113.1
+! Version: 240115.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -622,6 +622,9 @@ auction.co.kr##.module_slot.promo
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/cmg_paperboy/image/*/$image
 ||static.coupangcdn.com/*/banner$image
+||myqcloud.com^$app=com.coupang.mobile
+||mercury.coupang.com^$app=com.coupang.mobile
+||crashlyticsreports-pa.googleapis.com^$app=com.coupang.mobile
 coupang.com##div.keen-slider__slide
 coupang.com##.trending_ads
 coupang.com##.srp-top-banner-container

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240116.1
+! Version: 240116.2
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1188,10 +1188,12 @@ a-ads.com##.aa_container
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
+pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]
 watcha.com##[href^="https://watcha.com/notices"]
+
 
 ! - apk-store
 apkcombo.com##.ad-pss

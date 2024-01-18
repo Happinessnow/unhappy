@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240116.2
+! Version: 240118.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -983,6 +983,8 @@ wfwf293.com,wfwf294.com,wfwf295.com,wfwf296.com,wfwf297.com,wfwf298.com,wfwf299.
 ||newtoki*.*/*/banner$image
 ||newtoki*.com/guarantee.php
 ! toonkor, tkr
+@@||toonkor*.com/*/btn_submit_comment.gif$image
+@@||tkr*.com/*/btn_submit_comment.gif$image
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image

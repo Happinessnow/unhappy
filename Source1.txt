@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240118.1
+! Version: 240122.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -185,6 +185,8 @@ nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
 nocutnews.co.kr##.slick-slide.rainbow
 ! bing, MSN
+bing.com##.openfo.toolTip.id_button
+bing.com###id_rh
 bing.com##.header
 bing.com##.ttc_visible
 msn.com##display-ads
@@ -1028,6 +1030,8 @@ sub.manhwa.co.kr###main_banner_first_top_box
 103.204.13.68##.nav-main__link--more.nav-main__link
 103.204.13.68##.popups
 103.204.13.68##.topBanner
+*##.topBanner
+
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n

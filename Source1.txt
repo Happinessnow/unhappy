@@ -1,6 +1,6 @@
 [ Source1 ]
 ! Title: Source1
-! Expires: 7 days
+! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Version: 240124.1
 

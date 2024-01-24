@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240122.1
+! Version: 240124.1
 
 ! pillyze.com
 pillyze.com###top-banner-swipe
@@ -1486,6 +1486,9 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+softonic.kr##.sam-slot
+softonic.kr##.rv-di-modal
+softonic.kr##.sam-slot__content
 paraphrasing.io##.min-h-5
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)

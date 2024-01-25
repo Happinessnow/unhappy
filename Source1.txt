@@ -2,9 +2,17 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240124.1
+! Version: 240126.1
 
-! pillyze.com
+! - getintoway
+getintoway.com##.wpsafe-top
+getintoway.com##.getin-before-content
+getintoway.com###block-12
+getintoway.com###block-20
+getintoway.com##.getin-home-header
+getintoway.com##.getin-after-content
+
+! - pillyze.com
 pillyze.com###top-banner-swipe
 pillyze.com##.banner-wrap
 pillyze.com##.f-footer-banner-170

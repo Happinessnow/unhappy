@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240126.1
+! Version: 240129.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top

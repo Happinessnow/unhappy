@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240129.1
+! Version: 240129.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -18,6 +18,13 @@ pillyze.com##.banner-wrap
 pillyze.com##.f-footer-banner-170
 pillyze.com##.f-footer-row1
 pillyze.com##.middle-banner
+
+! - jobplanet, 잡플래닛
+jobplanet.co.kr##.archive_section
+jobplanet.co.kr##.img_banner_box
+jobplanet.co.kr##.jp_adds_wrap
+jobplanet.co.kr##.jply_banner_ty1
+jobplanet.co.kr##.swiper-container-horizontal
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^
@@ -47,17 +54,17 @@ jobkorea.co.kr##.right-banner
 jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
 
-! okcashbag
+! - okcashbag
 member.okcashbag.com##.ad
 member.okcashbag.com##.appdownBanner
 member.okcashbag.com##.uiBanner
 
-! iherb
+! - iherb
 iherb.com###truste-banner-wrapper
 iherb.com##.promotions-subscribe
 iherb.com##.email-subscription-new-container
 
-! steptohealth.co.kr
+! - steptohealth.co.kr
 steptohealth.co.kr##.ad-slot-container
 steptohealth.co.kr##.ads__medium
 steptohealth.co.kr##.ads_box_container

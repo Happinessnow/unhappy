@@ -25,10 +25,10 @@ pillyze.com##.middle-banner
 @@||fileco.jobkorea.co.kr^
 @@||img.jobkorea.kr^
 @@||m.map.naver.com^$popup,domain=m.jobkorea.co.kr
-||i.jobkorea.kr/content/images/careerpath/img_banner.png$image
+||i.jobkorea.kr/content/images/*/banner*$image
 ||file1.jobkorea.co.kr/Mailing/banner$image
-jobkorea.co.kr###banner-area
 jobkorea.co.kr###Banner1
+jobkorea.co.kr###banner-area
 jobkorea.co.kr###carousel_1
 jobkorea.co.kr###carousel_2
 jobkorea.co.kr###devGiRightTicker
@@ -37,12 +37,15 @@ jobkorea.co.kr##.addmict-swiper
 jobkorea.co.kr##.aside-ad-banner
 jobkorea.co.kr##.flow_banner_box
 jobkorea.co.kr##.footer__advertisement
+jobkorea.co.kr##.healthBanner
 jobkorea.co.kr##.notice
 jobkorea.co.kr##.notice-wrap
 jobkorea.co.kr##.preference-wrap
+jobkorea.co.kr##.qna-content
+jobkorea.co.kr##.resume-emphasis
 jobkorea.co.kr##.right-banner
-jobkorea.co.kr##.td-message
 jobkorea.co.kr##.show.snackbar-connect-app
+jobkorea.co.kr##.td-message
 
 ! okcashbag
 member.okcashbag.com##.ad

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240129.2
+! Version: 240129.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -20,11 +20,11 @@ pillyze.com##.f-footer-row1
 pillyze.com##.middle-banner
 
 ! - jobplanet, 잡플래닛
+jobplanet.co.kr##.swiper-container-horizontal.swiper-container-initialized
 jobplanet.co.kr##.archive_section
 jobplanet.co.kr##.img_banner_box
 jobplanet.co.kr##.jp_adds_wrap
 jobplanet.co.kr##.jply_banner_ty1
-jobplanet.co.kr##.swiper-container-horizontal
 
 ! - JobKorea
 @@||coimg.jobkorea.co.kr^

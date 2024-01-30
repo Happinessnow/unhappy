@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240129.4
+! Version: 240130.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -982,8 +982,8 @@ pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 
-! - WebToon / 웹툰 // 2023-Oct
-wfwf293.com,wfwf294.com,wfwf295.com,wfwf296.com,wfwf297.com,wfwf298.com,wfwf299.com,wfwf300.com,wfwf301.com,wfwf302.com,wfwf303.com,wfwf304.com,wfwf305.com,wfwf306.com,wfwf307.com,wfwf308.com,wfwf309.com,wfwf310.com,wfwf311.com,wfwf312.com,wfwf313.com##.modal-wrapper
+! - WebToon / 웹툰 // 2024-Jan
+##.modal-wrapper
 ! webtoon logo
 ||booktoki*.com/img/logo*
 ||funbe*.com/*/*logo*
@@ -1008,11 +1008,10 @@ wfwf293.com,wfwf294.com,wfwf295.com,wfwf296.com,wfwf297.com,wfwf298.com,wfwf299.
 ||toonkor*.*/*/*.gif$image
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
-tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##.alert_windows
-tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(6)
-tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(7)
-tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(8)
-tkr265.com,tkr266.com,tkr267.com,tkr268.com,tkr269.com,tkr270.com,tkr271.com,tkr272.com,tkr273.com,tkr274.com,tkr275.com,tkr276.com,tkr277.com,tkr278.com,tkr279.com,tkr280.com,tkr281.com,tkr282.com,tkr283.com,tkr284.com,tkr285.com##li.off.menu-li:nth-of-type(3)
+! WFWF, Wtoon
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##[href="/w6"]
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.top.row
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.left > ul > li:nth-of-type(4)
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image

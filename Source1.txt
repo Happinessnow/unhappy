@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240130.1
+! Version: 240131.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -957,7 +957,7 @@ cafe.naver.com##.location.home_section
 cafe.naver.com##.notice_area.AsideNotice
 cafe.naver.com##.section_home_town
 cafe.naver.com##.smart_bot_area.AsideSmartBot
-! comic.naver, webtoon, 웹툰
+! comic.naver
 comic.naver.com###mflickAd
 comic.naver.com##.ads_sc
 comic.naver.com##.cont_app_banner
@@ -1012,6 +1012,7 @@ premium.naver.com##.bottom_layer
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##[href="/w6"]
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.top.row
 wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.left > ul > li:nth-of-type(4)
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.toon-bottom
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image

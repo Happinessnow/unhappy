@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240131.1
+! Version: 240201.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1130,6 +1130,9 @@ com##.row-banner
 com##.at-banner
 ||i.imgur.com/*.jpg$image
 ||i.imgur.com/*.gif$image
+! TorrentSome
+||static.filesbest.xyz/s/up$image
+||torrentsome*.com/*/up$image
 
 ! etoland
 etoland.co.kr##.youtube-container

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240202.1
+! Version: 240203.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1038,8 +1038,9 @@ com##.mobile-banner.col-md-12
 sub.manhwa.co.kr##.main_banner_left01_box
 sub.manhwa.co.kr###main_banner_first_top_box
 ||sub.manhwa.co.kr/img/detail_google_appdown_banner.jpg$image
-! 11toon, 103.204.13.68, 103.204.13.68:8901
+! 11toon, 103.204.13.68:8901
 @@||11toonimg*.spotv*.com/data/file/*/*.jpg$image
+||pl*.com/toonfile/toonres/*/*logo*.png$image
 ||wwwimageup.angle777899.com$image
 /other/atoona$image
 103.204.13.68###adsbig3
@@ -1054,7 +1055,6 @@ sub.manhwa.co.kr###main_banner_first_top_box
 103.204.13.68##.popups
 103.204.13.68##.topBanner
 *##.topBanner
-
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n
@@ -1062,7 +1062,7 @@ comcbt.com##div
 ! emmaru
 emmaru.com###scrool_rightbanner
 emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)
-! etc
+! about-etc
 ||yatoon*.com/*/ad.jpg$image
 ||yatoon*.com/*/drama*.jpg$image
 ||a*.tooncome.com/*/*.gif$image
@@ -1072,6 +1072,7 @@ tooncome.com##li.swiper-slide.gnb_1dli:nth-of-type(9)
 tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
 cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
+hotword.site##div.col-md-6
 
 ! 라프텔, laftel.net
 ||service.iamport.kr^
@@ -1512,6 +1513,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+nextpit.com##aside.swiper-slide
 softonic.kr##.sam-slot
 softonic.kr##.rv-di-modal
 softonic.kr##.sam-slot__content

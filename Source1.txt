@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240203.1
+! Version: 240205.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -640,7 +640,6 @@ auction.co.kr##.module_slot.promo
 ! coupang
 @@||/bannerunit/*
 ||ads-partners.coupang.com^
-||static.coupangcdn.com/*/cmg_paperboy/image/*/$image
 ||static.coupangcdn.com/*/banner$image
 ||myqcloud.com^$app=com.coupang.mobile
 ||mercury.coupang.com^$app=com.coupang.mobile

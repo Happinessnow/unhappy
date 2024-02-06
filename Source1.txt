@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240206.1
+! Version: 240207.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -53,6 +53,10 @@ jobkorea.co.kr##.resume-emphasis
 jobkorea.co.kr##.right-banner
 jobkorea.co.kr##.show.snackbar-connect-app
 jobkorea.co.kr##.td-message
+jobkorea.co.kr##.modal-banner
+jobkorea.co.kr##.active.ticker
+jobkorea.co.kr##.banner-health
+jobkorea.co.kr###ban
 
 ! - okcashbag
 member.okcashbag.com##.ad
@@ -634,6 +638,7 @@ aliexpress.com###container-for-smart-banner
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
 aliexpress.com##.top-banner-container
+aliexpress.com##.image-poplayer-modal
 ! auction
 auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
@@ -1387,6 +1392,8 @@ krakenfiles.com##.cc_div
 speedtest.net##.mobile-pretest
 speedtest.net##.result-area-ad
 speedtest.net##.prompt-modal
+speedtest.net###onetrust-consent-sdk
+speedtest.net###modal-overlay
 
 ! cosmorning.com
 cosmorning.com##.banner_wrap

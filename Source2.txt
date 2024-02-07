@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 231224.1
+! Version: 240207.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -198,7 +198,6 @@
 ||chulsu.net^
 ||clickmon.co.kr^
 ||crab.baidu.com^
-||cwstatic.*.co.kr^
 ||cyad1.*.com^
 ||daily-tv.com^
 ||dailyenter.net^

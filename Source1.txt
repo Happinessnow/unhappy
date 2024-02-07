@@ -671,6 +671,8 @@ coupang.com###fullBanner
 coupang.com###coupang-banner
 coupang.com###app-redirect-nudge
 ! danawa
+||img.danawa.com/images/newsCommunity/eventSkin$image
+dpg.danawa.com##.wrap_link_left.comty_wrap_link
 danawa.com###ebayPowerClickBottomArea
 danawa.com###mainAdReader
 danawa.com###mainAdStar
@@ -816,6 +818,7 @@ dcinside.com###comment_li_0
 ||*.googleadservices.com^$important
 ||googleads.g.doubleclick.net/*/ads$subdocument
 ||googleads.g.doubleclick.net^
+||static.doubleclick.net^
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js
 ||pagead2.googlesyndication.com^
 ||fundingchoicesmessages.google.com^

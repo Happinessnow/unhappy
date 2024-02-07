@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240207.1
+! Version: 240207.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1524,6 +1524,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+@@||api-zero.livere.com/*/comments
 ||amggsp.com/*.gif$image
 evoload.fun##.header-main
 nextpit.com##aside.swiper-slide

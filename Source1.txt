@@ -673,19 +673,20 @@ coupang.com###app-redirect-nudge
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
 dpg.danawa.com##.wrap_link_left.comty_wrap_link
+danawa.com###adSmartArea
+danawa.com###adSmartArea2
 danawa.com###ebayPowerClickBottomArea
 danawa.com###mainAdReader
 danawa.com###mainAdStar
+danawa.com###planBPlusAdSmartArea
 danawa.com###powerClickListArea
+danawa.com###powerLinkArea
 danawa.com##.aside_widget
 danawa.com##.dealer.diff_list
 danawa.com##.diff_bnr
 danawa.com##.event_link
 danawa.com##.main_ad_prodlist
 danawa.com##li.prod_ad_item
-danawa.com###adSmartArea
-danawa.com###adSmartArea2
-danawa.com###powerLinkArea
 ! gmarket
 ||ad-img.gmarket.com/ADS$image
 gmarket.co.kr##.box__inner

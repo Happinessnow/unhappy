@@ -1159,6 +1159,8 @@ ohli365.vip##.at-title
 ohli365.vip##.basic-banner-4
 ||ohli365.vip/*.gif$image
 ||ohli365.vip/*.png$image
+! ohlitv
+ohlitv.com##.insty
 ! 라프텔, laftel.net
 ||service.iamport.kr^
 ||iamport.kr^

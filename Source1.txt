@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240209.1
+! Version: 240209.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1160,7 +1160,9 @@ ohli365.vip##.basic-banner-4
 ||ohli365.vip/*.gif$image
 ||ohli365.vip/*.png$image
 ! ohlitv
+||ohlitv.com/img/*.gif$image
 ohlitv.com##.insty
+ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^
 ||iamport.kr^

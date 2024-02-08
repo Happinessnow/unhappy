@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240208.1
+! Version: 240209.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -995,7 +995,7 @@ pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 
-! - WebToon / 웹툰 // 2024-Jan
+! - WebToon / 웹툰 // 2024-Feb
 ##.modal-wrapper
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -1082,15 +1082,6 @@ cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
 hotword.site##div.col-md-6
 
-! 라프텔, laftel.net
-||service.iamport.kr^
-||iamport.kr^
-
-! linkkf.app / linkkf.tv
-@@||ani1c1.top^$image
-linkkf.tv###banner
-linkkf.app###banner
-
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 ! 누누티비 / 누누티비.tv / 티비위키(tvwiki)
 @@||assets.request-support.com/images/$image
@@ -1133,12 +1124,6 @@ waaboom.com##center:nth-of-type(2)
 ! tvchak
 /^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image
-! tv-etc
-fun##.bannerwrap1
-kotbc.com##.at-title
-||qooqootv*.com/*/event*.png$image
-lol/wp-content/uploads/*/*.gif
-lol##figure.size-full.wp-block-image
 !! 토렌트
 ! torrentqq
 com##.row-banner
@@ -1148,7 +1133,6 @@ com##.at-banner
 ! TorrentSome
 ||static.filesbest.xyz/s/up$image
 ||torrentsome*.com/*/up$image
-
 ! etoland
 etoland.co.kr##.youtube-container
 etoland.co.kr##.main-top-banner
@@ -1165,6 +1149,25 @@ etoland.co.kr##.power_link_top_wrap
 *###addon-popup3-layer
 *###addon-popup4-layer
 *###addon-popup5-layer
+!! 애니
+! linkkf.app / linkkf.tv
+@@||ani1c1.top^$image
+linkkf.tv###banner
+linkkf.app###banner
+! ohli365
+ohli365.vip##.at-title
+ohli365.vip##.basic-banner-4
+||ohli365.vip/*.gif$image
+||ohli365.vip/*.png$image
+! 라프텔, laftel.net
+||service.iamport.kr^
+||iamport.kr^
+!! tv-etc
+fun##.bannerwrap1
+kotbc.com##.at-title
+||qooqootv*.com/*/event*.png$image
+lol/wp-content/uploads/*/*.gif
+lol##figure.size-full.wp-block-image
 
 ! - mediafire.com
 mediafire.com##.CookieAcceptance

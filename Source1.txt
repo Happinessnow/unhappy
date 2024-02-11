@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240211.1
+! Version: 240211.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -982,7 +982,6 @@ comic.naver.com$@$div[id="ppl_default_section"]
 map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
-talk.naver.com##._marketingMessage
 ! pay.naver, 페이
 ||new-m.pay.naver.com/api/timeline/v2/aitems
 pay.naver.com###pc_pay_paymenthistory
@@ -996,6 +995,16 @@ pay.naver.com##div.s_sc:nth-of-type(5)
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
+! talks.naver.com
+talks.naver.com##div[class^="GuideArea_wrap"]
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(4)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(5)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(6)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(7)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
+talk.naver.com##._marketingMessage
 ! naver etc
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap

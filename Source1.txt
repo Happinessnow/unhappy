@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240209.3
+! Version: 240211.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1066,7 +1066,6 @@ sub.manhwa.co.kr###main_banner_first_top_box
 ! cookmana
 ||wwwimageup.*angle.net/other/wx_app_admin/*.png$image
 bell365.com##.btn_setup_n
-comcbt.com##div
 ! emmaru
 emmaru.com###scrool_rightbanner
 emmaru.com##body > table > tbody > tr > td > table > tbody > tr:nth-of-type(4) > td:nth-of-type(3)

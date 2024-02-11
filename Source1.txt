@@ -176,7 +176,7 @@ open.spotify.com###onetrust-consent-sdk
 superuser.com##.js-consent-banner
 bitly.com###banner-cookie
 
-! - NewsPaper Ads / 뉴스
+! - News Paper Ads / 뉴스
 ||cdn.emetro.co.kr/*banner
 asiae.co.kr##.sns_area
 asiae.co.kr##.youtube_wrap
@@ -607,11 +607,17 @@ mobile.newsis.com##.fixBanner
 dt.co.kr##.main_wrap > center
 dt.co.kr##div.bk20
 dt.co.kr##div.bk40
+! alphabiz
+||alphabiz.co.kr/*/banner$image
+||widget.publish.link/$subdocument
+widget.publish.link##.pcBanner
 ! news-etc
+||www.businesspost.co.kr/*/banner/*/$image
 etnews.com##div.ad_300x250
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
-||www.businesspost.co.kr/*/banner/*/$image
+@@/openads/*
+openads.co.kr##.adBanner
 
 ! - 모두닥
 modoodoc.com###ad-post
@@ -1252,6 +1258,7 @@ apkpure.com##.apkpure-download-card
 apkpure.com##.debut-game
 apkpure.com##.share-box
 apkpure.com##.share-fixed
+apkpure.net###policy-info
 apkmirror.com###bottom-slider
 apkmirror.com###ez-content-blocker-container
 apkmirror.com###sidebar > div.listWidget:nth-of-type(1)

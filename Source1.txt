@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240211.3
+! Version: 240214.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -489,6 +489,8 @@ mdjournal.kr##.html_banner
 mdjournal.kr##.wrap_new_13.auto-p06.auto-article
 ! nate
 @@||adimg.nate.com^
+||m.shopping.nate.com^$domain=m.mail.nate.com
+nate.com##.nmBanner
 nate.com##.SnbNewsBar
 news.nate.com##.googleAd_wrap
 news.nate.com##.sidebar_banner
@@ -722,6 +724,7 @@ wemakeprice.com##.mix_global_banner
 ! interpark
 interpark.com##.ad.couponContent
 ! qoo10
+qoo10.com##.bnnr_area
 qoo10.com##.m_ad_bnnr
 qoo10.com##.shr_rwrditm
 ! ssg
@@ -1258,10 +1261,11 @@ watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]
 watcha.com##[href^="https://watcha.com/notices"]
 
-
 ! - apk-store
+! apkcombo
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget
+! apkpure
 apkpure.com###policy-info
 apkpure.com##.aegon-down-item
 apkpure.com##.apkpure-download-card
@@ -1269,9 +1273,14 @@ apkpure.com##.debut-game
 apkpure.com##.share-box
 apkpure.com##.share-fixed
 apkpure.net###policy-info
+! apkmirror
 apkmirror.com###bottom-slider
 apkmirror.com###ez-content-blocker-container
 apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
+apkmirror.com##aside[id^="appmanager_s"]
+apkmirror.com##div[id^="adtester"]
+apkmirror.com##div[class^="OUTBRAIN"]
+! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]
 playmods.net##.recommend
@@ -1617,7 +1626,6 @@ weather.go.kr##.on.ba-wrap
 ||ifh.cc/*/$image
 ||kingjjal.com/$subdocument
 ||log.snow.me^$app=com.snowcorp.soda.android
-||m.shopping.nate.com^$domain=m.mail.nate.com
 ||mplad.ahnlab.com:8880^$important
 ||petzoa.co.kr/$subdocument
 ||rsload.net/images5/$image
@@ -1651,7 +1659,6 @@ techyneed.com##iframe
 trendyflix.xyz##.fb_reset
 withtalk.*##div.row
 youngja.org##div.row:nth-of-type(4)
-
 ! - 기타 예외
 @@||mon-va.byteoversea.com^$domain=tiktok.com
 @@||/stat.js

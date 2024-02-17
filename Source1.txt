@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240214.1
+! Version: 240218.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -802,6 +802,8 @@ search.daum.net##.list_ad
 search.daum.net###n0nlColl
 ! Kakao shoppinghow
 shoppinghow.kakao.com##.wrap_shoppingad
+store.kakao.com##.area_mybnr
+store.kakao.com##.inner_slide
 
 ! - tistory
 @@||www.tistory.com^
@@ -1256,6 +1258,7 @@ a-ads.com##.aa_container
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
+pedia.watcha.com##div [class^="desktop css-"]
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]

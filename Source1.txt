@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240218.1
+! Version: 240218.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1289,6 +1289,10 @@ playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]
 playmods.net##.recommend
 playmods.net##.cookie-fl
+! gamedva
+gamedva.com##.atelegram
+gamedva.com##.aatelegram1
+gamedva.com##.wp-block-button.hide-on-mobile
 
 ! - ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image

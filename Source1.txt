@@ -1258,7 +1258,8 @@ a-ads.com##.aa_container
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
-pedia.watcha.com##div [class^="desktop css-"]
+pedia.watcha.com##div[class^="desktop css-"]
+pedia.watcha.com##div[class*="media-area css-"]
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]

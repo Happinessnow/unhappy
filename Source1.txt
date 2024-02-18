@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240218.2
+! Version: 240219.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -505,6 +505,7 @@ news.nate.com###AdCommerce
 news.nate.com##.ad290x330
 ! zum
 @@||deepdive.zum.com^
+#@#iframe[src*="//deepdive.zum.com/widget/"]
 zum.com##.shopping_adbox
 zum.com##.setting_box
 zum.com##.right_ad_wrap
@@ -1199,6 +1200,7 @@ mediafire.com##.CookieAcceptance
 
 ! - terabox / 1024tera
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
+terabox.com##img[class="pc-download"]
 terabox.com##.notification-wrap
 terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
 terabox.com##.dialog-extra-del
@@ -1224,6 +1226,7 @@ terabox.com##.membership-entry
 1024tera.com##.seo-banner-box
 1024tera.com##.coupon-Popup-box
 1024tera.com##.membership-entry
+
 
 ! - happymod
 happymod.com##.righthm.rbox

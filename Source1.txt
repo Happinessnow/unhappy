@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240219.1
+! Version: 240219.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -739,7 +739,6 @@ tdeal.kr##.topBanner__content
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
-||cdn.discordapp.com/*$image
 coocha.co.kr##.group-power-link
 
 ! - Danawa(PC)

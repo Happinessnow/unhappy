@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240219.2
+! Version: 240222.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -214,6 +214,11 @@ bing.com##.ttc_visible
 msn.com##display-ads
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##article-close-button
+www.msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
+www.msn.com##div > end-of-content-block[category="others"]
+www.msn.com##.article-cont-read-button-on-app
+www.msn.com##social-lead-gen-in-article
+
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -1226,35 +1231,6 @@ terabox.com##.membership-entry
 1024tera.com##.coupon-Popup-box
 1024tera.com##.membership-entry
 
-
-! - happymod
-happymod.com##.righthm.rbox
-happymod.com##.downloading.cbox
-happymod.com##a.download-btn:nth-of-type(1)
-happymod.com##.download-desc
-happymod.com##.container-left > div:nth-of-type(3)
-
-! - a2zapk
-@@||a2z.a2zapk.io^
-@@||dl.a2zupload.io^
-a2zapk.io#@#.RightAside
-||a2zapk.io/cdn-cgi/rum
-||a2zapk.io/tglink.php^
-||a2zapk.io/tglink.php^
-||xxxiijmp.com/i$subdocument
-a2zapk.io##div.ArticleLand > [src]
-a2zapk.io##center:nth-of-type(2)
-a2zapk.io##div.ArticleLand > [src]
-a2zapk.io###div-gpt-ad-1689930918138-0
-a2zapk.io###div-gpt-ad-1689952596717-0
-a2zapk.io###div-gpt-ad-1689952633186-0
-a2zapk.io###div-gpt-ad-1690110552257-0
-a2zapk.io##.modalpop
-rtxkeeda.com###a-ads5
-rtxkeeda.com##.modalpop
-rtxkeeda.com##.NewBlock1 > [src]
-a-ads.com##.aa_container
-
 ! - watcha
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
@@ -1295,6 +1271,37 @@ playmods.net##.cookie-fl
 gamedva.com##.atelegram
 gamedva.com##.aatelegram1
 gamedva.com##.wp-block-button.hide-on-mobile
+! happymod
+happymod.com##.righthm.rbox
+happymod.com##.downloading.cbox
+happymod.com##a.download-btn:nth-of-type(1)
+happymod.com##.download-desc
+happymod.com##.container-left > div:nth-of-type(3)
+www.happymod.to##div[class^="modCon"]
+www.happymod.to##a[class="appdetail-btn"]
+! etc
+modfyp.com##.adsBox
+
+! - a2zapk
+@@||a2z.a2zapk.io^
+@@||dl.a2zupload.io^
+a2zapk.io#@#.RightAside
+||a2zapk.io/cdn-cgi/rum
+||a2zapk.io/tglink.php^
+||a2zapk.io/tglink.php^
+||xxxiijmp.com/i$subdocument
+a2zapk.io##div.ArticleLand > [src]
+a2zapk.io##center:nth-of-type(2)
+a2zapk.io##div.ArticleLand > [src]
+a2zapk.io###div-gpt-ad-1689930918138-0
+a2zapk.io###div-gpt-ad-1689952596717-0
+a2zapk.io###div-gpt-ad-1689952633186-0
+a2zapk.io###div-gpt-ad-1690110552257-0
+a2zapk.io##.modalpop
+rtxkeeda.com###a-ads5
+rtxkeeda.com##.modalpop
+rtxkeeda.com##.NewBlock1 > [src]
+a-ads.com##.aa_container
 
 ! - ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image
@@ -1570,6 +1577,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+www.puresys.net###aiviy-union-ad-2
 filetender.com##.avmov
 filetender.com###button
 @@||api-zero.livere.com/*/comments

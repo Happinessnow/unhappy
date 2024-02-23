@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240222.1
+! Version: 240223.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1125,7 +1125,7 @@ top##.partner-banner-flex:nth-of-type(2)
 *##.wp-block-gallery-1.wp-block-gallery
 ! koreanz
 koreanz.xyz##div:nth-of-type(4)
-! sonagitv.live / info
+! sonagitv.live / info / org
 ||s*.sonagitv.live/images/banner/*.jpg$image
 ||s*.sonagitv.live/images/banner/*.png$image
 ||sonagitv.live/images/banner/*.jpg$image
@@ -1143,6 +1143,9 @@ sonagitv.info##.safead_wrap
 sonagitv.live##.popup_warp
 sonagitv.live##.safead_wrap
 sonagitv-juso.com##.safead_wrap
+sonagi.org##[href="https://www.lionslions.com/"]
+sonagi.org##.lk
+sonagi.org##li:nth-of-type(4)
 ! waaboom
 waaboom.com##center:nth-of-type(1)
 waaboom.com##center:nth-of-type(2)

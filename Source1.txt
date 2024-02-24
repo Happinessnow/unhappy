@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240223.1
+! Version: 240225.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -328,10 +328,21 @@ dongascience.com###letter_apply
 ! new.sbs
 news.sbs.co.kr##.w_banner
 news.sbs.co.kr###dablewidget_job8QLlW
+news.sbs.co.kr##.page_promotion_banner
 ! imbc
 imnews.imbc.com##div.ad_banner
+imnews.imbc.com##div[class="section_bottom_dable"]
 imnews.imbc.com##.banner_ad
 imnews.imbc.com##.program_banner
+imnews.imbc.com##.ad-count
+imnews.imbc.com##.ad-current
+imnews.imbc.com##.ad_enliple_m
+imnews.imbc.com##.ad-tit
+imnews.imbc.com##.clip-preview-msg
+imnews.imbc.com##.layer-ad
+imnews.imbc.com##.list_banner
+imnews.imbc.com##.s_ad.section
+imnews.imbc.com##.show_ad
 ! isplus / 일간스포츠
 isplus.com###eventBusiness
 isplus.com##.t_banner
@@ -1241,9 +1252,10 @@ terabox.com##.membership-entry
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-pedia.watcha.com##[href^="https://www.youtube.com/watch"]
+pedia.watcha.com##div > section > div > section > div[class^="css-"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
+pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]
@@ -1548,7 +1560,6 @@ net##.mkt_banner
 *##[href*="bneye"]
 *##[href*="cuba"]
 *##[href*="dh651"]
-*##[href*="ffma"]
 *##[href*="gfa69"]
 *##[href*="guarante"]
 *##[href*="herbnewming"]

@@ -1594,6 +1594,8 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+||resource.steelmedia.co.uk/skins$image
+en.wikipedia.org###siteNotice
 www.puresys.net###aiviy-union-ad-2
 filetender.com##.avmov
 filetender.com###button

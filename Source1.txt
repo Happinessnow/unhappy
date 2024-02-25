@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240225.1
+! Version: 240225.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1252,7 +1252,7 @@ terabox.com##.membership-entry
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-pedia.watcha.com##div > section > div > section > div[class^="css-"]
+pedia.watcha.com##section > div[class] [href^="https://brand.naver.com"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]

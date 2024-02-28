@@ -110,6 +110,7 @@
 @@||lcs.naver.com^
 @@||nid.naver.com^
 @@||sp.naver.com^
+@@||er.search.naver.com^
 ||*.impression-neo.naver.com^
 ||smrmembers-smr.smartmediarep.com^
 ||tvetamovie.pstatic.net^

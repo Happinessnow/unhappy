@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Expires: 7 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240207.1
+! Version: 240228.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -23,7 +23,7 @@
 @@||stat.tiara.daum.net^
 @@||stat.tiara.kakao.com^
 @@||videostats.kakao.com^
-!||*.ds.kakao.com^
+||tr.ds.kakao.com
 ||*.ad.daum.net^
 ||*.ad.kakao.com^
 ||*.ad.kakaocorp.com^

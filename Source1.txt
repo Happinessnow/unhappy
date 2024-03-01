@@ -745,9 +745,11 @@ qoo10.com##.bnnr_area
 qoo10.com##.m_ad_bnnr
 qoo10.com##.shr_rwrditm
 ! ssg
-ssg.com##.gnb_bnr_wrap
-ssg.com##.menu_ad
-ssg.com###ajaxMainMemberShipItem
+www.ssg.com##.gnb_bnr_wrap
+www.ssg.com##.menu_ad
+www.ssg.com###ajaxMainMemberShipItem
+www.ssg.com##.cdtl_bn_marketing
+www.ssg.com##.cdtl_universe_type
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
@@ -1221,32 +1223,34 @@ mediafire.com##.CookieAcceptance
 
 ! - terabox / 1024tera
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
-terabox.com##img[class="pc-download"]
-terabox.com##.notification-wrap
-terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
-terabox.com##.dialog-extra-del
-terabox.com##.operate-popup-box
-terabox.com##.bottom-box
-terabox.com##.bottom-tip-wrap
-terabox.com##.header
-terabox.com##.operate-box
-terabox.com##.overlay
-terabox.com##.seo-banner-box
-terabox.com##.coupon-Popup-box
-terabox.com##.membership-entry
-1024tera.com##.ad-eggplant
-1024tera.com##.notification-wrap
-1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
-1024tera.com##.dialog-extra-del
-1024tera.com##.operate-popup-box
-1024tera.com##.bottom-box
-1024tera.com##.bottom-tip-wrap
-1024tera.com##.header
-1024tera.com##.operate-box
-1024tera.com##.overlay
-1024tera.com##.seo-banner-box
-1024tera.com##.coupon-Popup-box
-1024tera.com##.membership-entry
+www.terabox.com##img[class="pc-download"]
+www.terabox.com##.notification-wrap
+www.terabox.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.terabox.com##.dialog-extra-del
+www.terabox.com##.operate-popup-box
+www.terabox.com##.bottom-box
+www.terabox.com##.bottom-tip-wrap
+www.terabox.com##.header
+www.terabox.com##.operate-box
+www.terabox.com##.overlay
+www.terabox.com##.seo-banner-box
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.membership-entry
+www.terabox.com##.social-media
+www.1024tera.com##.report
+www.1024tera.com##.ad-eggplant
+www.1024tera.com##.notification-wrap
+www.1024tera.com##.u-carousel--horizontal.u-carousel.notification-wrap
+www.1024tera.com##.dialog-extra-del
+www.1024tera.com##.operate-popup-box
+www.1024tera.com##.bottom-box
+www.1024tera.com##.bottom-tip-wrap
+www.1024tera.com##.header
+www.1024tera.com##.operate-box
+www.1024tera.com##.overlay
+www.1024tera.com##.seo-banner-box
+www.1024tera.com##.coupon-Popup-box
+www.1024tera.com##.membership-entry
 
 ! - watcha
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
@@ -1260,6 +1264,10 @@ watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]
 watcha.com##[href^="https://watcha.com/notices"]
+
+! - kinolights.com
+||file.kinolights.com/original/banner$image
+m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
 
 ! - apk-store
 ! apkcombo
@@ -1594,6 +1602,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+linktr.ee##div.content-panel.section
 ||resource.steelmedia.co.uk/skins$image
 en.wikipedia.org###siteNotice
 www.puresys.net###aiviy-union-ad-2

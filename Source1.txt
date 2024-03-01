@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240226.1
+! Version: 240301.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1132,8 +1132,8 @@ top##.partner-banner-content
 top##.partner-banner-flex:nth-of-type(1)
 top##.partner-banner-flex:nth-of-type(2)
 ! 콕콕티비 / cokcoktv.sbs
-||cokcoktv.sbs/wp-content/uploads$image
-cokcoktv.sbs##.custom_banner_wrap
+||cokcoktv*.sbs/wp-content/uploads$image
+sbs##.custom_banner_wrap
 ! dasibogo, 다시보고
 *##figure.size-full.wp-block-image
 *##.wp-block-gallery-1.wp-block-gallery

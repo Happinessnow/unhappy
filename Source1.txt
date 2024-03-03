@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240301.2
+! Version: 240304.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -759,6 +759,10 @@ hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
 coocha.co.kr##.group-power-link
 
+! - 번개장터
+m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]
+m.bunjang.co.kr##[src^="https://ssl.pstatic.net/adimg"]
+
 ! - Danawa(PC)
 danawa.com###danawa-gnb-banner
 danawa.com##.font_dotum.bbs_power_link
@@ -1166,6 +1170,7 @@ sonagi.org##li:nth-of-type(4)
 waaboom.com##center:nth-of-type(1)
 waaboom.com##center:nth-of-type(2)
 ! tvchak
+com##[href^="https://tvchak"]
 /^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image
 !! 토렌트
@@ -1251,6 +1256,7 @@ www.1024tera.com##.overlay
 www.1024tera.com##.seo-banner-box
 www.1024tera.com##.coupon-Popup-box
 www.1024tera.com##.membership-entry
+www.1024tera.com##.text-banner
 
 ! - watcha
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
@@ -1602,6 +1608,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+www.lifewire.com##div[id^="article__broad-video"]
 linktr.ee##div.content-panel.section
 ||resource.steelmedia.co.uk/skins$image
 en.wikipedia.org###siteNotice
@@ -1641,7 +1648,6 @@ mvnohub.kr##.head_banner
 arca.live##.ad
 ||graph.facebook.com^$domain=graph.facebook.com
 ||trace.rememberapp.co.kr^
-bunjang.co.kr##.Productsstyle__ProductPageBottom-sc-13cvfvh-30
 dictionary.cambridge.org###onetrust-banner-sdk
 download.cnet.com##.c-adSkyBox
 eyagi.co.kr###event_topbn_wrap

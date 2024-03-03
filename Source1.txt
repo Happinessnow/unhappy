@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240304.2
+! Version: 240304.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -697,21 +697,25 @@ coupang.com###coupang-banner
 coupang.com###app-redirect-nudge
 ! danawa
 ||img.danawa.com/images/newsCommunity/eventSkin$image
+auto.danawa.com###homeFinder_adver
+auto.danawa.com##div[class^="ad-powerlink"]
 dpg.danawa.com##.wrap_link_left.comty_wrap_link
-danawa.com###adSmartArea
-danawa.com###adSmartArea2
-danawa.com###ebayPowerClickBottomArea
-danawa.com###mainAdReader
-danawa.com###mainAdStar
-danawa.com###planBPlusAdSmartArea
-danawa.com###powerClickListArea
-danawa.com###powerLinkArea
-danawa.com##.aside_widget
-danawa.com##.dealer.diff_list
-danawa.com##.diff_bnr
-danawa.com##.event_link
-danawa.com##.main_ad_prodlist
-danawa.com##li.prod_ad_item
+www.danawa.com##[class="prod-list__link top100AdProductClick"]
+www.danawa.com##div[class="main-coupon swiper-coupon"]
+www.danawa.com###adSmartArea
+www.danawa.com###adSmartArea2
+www.danawa.com###ebayPowerClickBottomArea
+www.danawa.com###mainAdReader
+www.danawa.com###mainAdStar
+www.danawa.com###planBPlusAdSmartArea
+www.danawa.com###powerClickListArea
+www.danawa.com###powerLinkArea
+www.danawa.com##.aside_widget
+www.danawa.com##.dealer.diff_list
+www.danawa.com##.diff_bnr
+www.danawa.com##.event_link
+www.danawa.com##.main_ad_prodlist
+www.danawa.com##li.prod_ad_item
 ! gmarket
 ||ad-img.gmarket.com/ADS$image
 gmarket.co.kr##.box__inner
@@ -1262,10 +1266,11 @@ www.1024tera.com##.text-banner
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-!pedia.watcha.com##[href^="https://"] > div[class^="css-"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
+pedia.watcha.com##img[src*=".png"]
+pedia.watcha.com##[rel^="noreferrer"]
 watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
 watcha.com##[href*="https://watcha.com/contents"]
 watcha.com##[href^="https://watcha.com/promotions"]

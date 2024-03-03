@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240304.1
+! Version: 240304.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1262,7 +1262,7 @@ www.1024tera.com##.text-banner
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
-pedia.watcha.com##[href^="https://"] > div[class^="css-"]
+!pedia.watcha.com##[href^="https://"] > div[class^="css-"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]

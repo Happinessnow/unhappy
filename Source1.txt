@@ -141,7 +141,7 @@ aagag.com##.mid2.la
 aagag.com##.l300x250
 aagag.com##.tleft
 
-! - 인베스팅 / 모바일, 웹 포함
+! - 인베스팅, investing / 모바일, 웹 포함
 investing.com###ad3
 investing.com###hpAdVideo
 investing.com###Side_Block_Facebook
@@ -152,6 +152,8 @@ investing.com##.download-app-view_download-app-view__1Y4-f
 investing.com##.installAppPopup
 investing.com##.installAppPopup-top
 investing.com##.mobile.float_lang_base_1
+investing.com##[href="/pro/pricing"]
+investing.com##div[class*="adNotification"]
 
 ! - 팝코 / 디지털(사진, 미디어) 포털 사이트
 popco.net###onesignal-slidedown-container
@@ -755,6 +757,8 @@ www.ssg.com##.menu_ad
 www.ssg.com###ajaxMainMemberShipItem
 www.ssg.com##.cdtl_bn_marketing
 www.ssg.com##.cdtl_universe_type
+! 11st
+www.11st.co.kr##.advertisement
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
@@ -1039,6 +1043,7 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
 talk.naver.com##._marketingMessage
 ! naver etc
+search.shopping.naver.com##div[id] > div[class^=aside_aside__]
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
@@ -1175,7 +1180,6 @@ sonagi.org##li:nth-of-type(4)
 waaboom.com##center:nth-of-type(1)
 waaboom.com##center:nth-of-type(2)
 ! tvchak
-com##[href^="https://tvchak"]
 /^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image
 !! 토렌트
@@ -1220,6 +1224,12 @@ ohlitv.com###exon
 ! 라프텔, laftel.net
 ||service.iamport.kr^
 ||iamport.kr^
+! juso.wiki
+juso.wiki##div[class^="alert alert"]
+com##div.main_link.f9_box01:nth-of-type(1)
+com##div.main_link.f9_box01:nth-of-type(3)
+com##div.main_link.f9_box01:nth-of-type(4)
+com##div.main_link.f9_box01:nth-of-type(9)
 !! tv-etc
 fun##.bannerwrap1
 kotbc.com##.at-title

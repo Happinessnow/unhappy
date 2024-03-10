@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240307.1
+! Version: 240311.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -669,6 +669,7 @@ auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
 ! coupang
 @@||/bannerunit/*
+@@||/banner/*$domain=coupang.com
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
 ||myqcloud.com^$app=com.coupang.mobile
@@ -1226,6 +1227,16 @@ kotbc.com##.at-title
 lol/wp-content/uploads/*/*.gif
 lol##figure.size-full.wp-block-image
 
+! - dropgalaxy
+dropgalaxy.com##div[id*="div-gpt-ad"]
+dropgalaxy.com##div[id*="apkad"]
+dropgalaxy.com##iframe[title="DropGalaxy File Download Tutorial"]
+dropgalaxy.com##div[style^="border:1px"]
+/images/dgpromo.jpg$image
+@@||securepubads.g.doubleclick.net^$domain=dropgalaxy.com
+#@#div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+#@#[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+
 ! - mediafire.com
 mediafire.com##.CookieAcceptance
 ||www.mediafire.com/widgets/sidebar_promo.php$subdocument
@@ -1330,15 +1341,10 @@ a2zapk.io#@#.RightAside
 a2zapk.io##div.ArticleLand > [src]
 a2zapk.io##center:nth-of-type(2)
 a2zapk.io##div.ArticleLand > [src]
-a2zapk.io###div-gpt-ad-1689930918138-0
-a2zapk.io###div-gpt-ad-1689952596717-0
-a2zapk.io###div-gpt-ad-1689952633186-0
-a2zapk.io###div-gpt-ad-1690110552257-0
 a2zapk.io##.modalpop
 rtxkeeda.com###a-ads5
 rtxkeeda.com##.modalpop
 rtxkeeda.com##.NewBlock1 > [src]
-a-ads.com##.aa_container
 
 ! - ppomppu
 ||cdn.ppomppu.co.kr/*/banner$image
@@ -1496,8 +1502,10 @@ wetv.vip##.minipay-ifame
 wetv.vip##.minipay-bg
 wetv.vip##.modal__content
 
-! - Ads Tags, 광고 태그
-@@||/banner/*$domain=coupang.com
+! - Ads Tags, 광고 태그, a-ads
+||ad.a-ads.com^
+a-ads.com##.aa_container
+a-ads.com##.size320x50
 *##.google-ad
 *##.ad-form
 *##[src*="innorame.com"]
@@ -1547,7 +1555,6 @@ wetv.vip##.modal__content
 *###ad-box
 ||ad.*.skt-jive.com^
 ||ad.3dpop.kr^
-||ad.a-ads.com^
 ||ad.buzzvil.com^
 ||ad.daum.net^
 ||adx.adcrony.co.kr^

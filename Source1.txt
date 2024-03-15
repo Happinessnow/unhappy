@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240315.2
+! Version: 240315.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1307,12 +1307,21 @@ com##div.main_link.f9_box01:nth-of-type(1)
 com##div.main_link.f9_box01:nth-of-type(3)
 com##div.main_link.f9_box01:nth-of-type(4)
 com##div.main_link.f9_box01:nth-of-type(9)
+! jusopang
+jusopang19.com##p:nth-of-type(14)
+jusopang19.com##p > [href*="https://jusopang19.com"]
+jusopang19.com##div[id^="foogallery-gallery-"]
+jusopang19.com##.pc
 !! tv-etc
+||qooqootv*.com/*/event*.png$image
+||tvzone.sbs/data/banner*$image
+store##[href^="https://daepiso.xyz"]
 fun##.bannerwrap1
 kotbc.com##.at-title
-||qooqootv*.com/*/event*.png$image
 lol/wp-content/uploads/*/*.gif
 lol##figure.size-full.wp-block-image
+store##[href^="https://daepiso.xyz"]
+||tvzone.sbs/data/banner*$image
 
 ! - dropgalaxy
 dropgalaxy.com##div[id*="div-gpt-ad"]
@@ -1663,7 +1672,8 @@ com##.detail-banner
 com##.premium-promo-row
 net##.idtunemklgfsrpchjoq
 net##.mkt_banner
-! 도박, 토토, 성인게임(불량) // 2023-Dec
+! 도박, 토토, 성인게임(불량) // 2024-mar
+*##[href="http://fs-ddff.com"]
 *##[href*="1bet1"]
 *##[href*="aarq"]
 *##[href*="agitbridge"]

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240311.1
+! Version: 240315.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -125,6 +125,12 @@ inven.co.kr##.imt_banner
 inven.co.kr##.inven-float-alarm
 inven.co.kr##.minAd
 inven.co.kr##.mobileDaNs1
+kr.investing.com##.proPromo-stripe
+kr.investing.com##strong
+kr.investing.com##div[class*="promo-strip_proPromo"]
+kr.investing.com##div[class*="mid-page-promo-btn"]
+kr.investing.com##.contentMediaBox
+m.kr.investing.com##.inlineBanner
 
 ! - iq.com
 @@||fundingchoicesmessages.google.com^$script,domain=www.iq.com
@@ -725,6 +731,11 @@ gmarket.co.kr##.box__inner
 gmarket.co.kr##.ng-scope.banner
 gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
 gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
+! gsshop
+with.gsshop.com###global-top-banner
+m.gsshop.com##.bnr-item_appdown
+m.gsshop.com##.app-banner-layer
+m.gsshop.com###md-appdown
 ! lotteon
 lotteon.com###modals-container
 lotteon.com##.eventBanner
@@ -745,28 +756,84 @@ tmon.co.kr##.topline_ad
 wemakeprice.com###_cardBanner
 wemakeprice.com###_rollingBanner
 wemakeprice.com##.mix_global_banner
+front.wemakeprice.com###_prodBanner
 ! interpark
 interpark.com##.ad.couponContent
+m.shop.interpark.com###prd_appbanner
+m.shop.interpark.com##.combineBanner
+m.shop.interpark.com##.horizonBanner
+m.shop.interpark.com##.popupBottom
+m.shop.interpark.com##.popupClose
+m.shop.interpark.com##.bottom.popupWrap
+m.shop.interpark.com##.appBanner
+m.shop.interpark.com##.cmBanner
 ! qoo10
 qoo10.com##.bnnr_area
 qoo10.com##.m_ad_bnnr
 qoo10.com##.shr_rwrditm
 ! ssg
+||sui.ssgcdn.com/ui/ssg/img/product/*/cdtl_universe_type_banner*$image
 www.ssg.com##.gnb_bnr_wrap
 www.ssg.com##.menu_ad
 www.ssg.com###ajaxMainMemberShipItem
 www.ssg.com##.cdtl_bn_marketing
 www.ssg.com##.cdtl_universe_type
+m.ssg.com###m_header_welcome
+m.ssg.com##.mndtl_sec_bx
+emart.ssg.com##.gnb_bnr_wrap
+emart.ssg.com##.cdtl_mmbr_wrap
+emart.ssg.com##.cdtl_bn_marketing
+emart.ssg.com###recom_product_div
+emart.ssg.com##.gate_unit.mnemitem_unit
+m-emart.ssg.com###item_advert_cpc_div
+m-emart.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
+m-emart.ssg.com##div.templated-grid:nth-of-type(4)
+m-emart.ssg.com##div.templated-grid:nth-of-type(12)
+m-emart.ssg.com##.mndtl_sec_bx
+m-emart.ssg.com##.mndtl_universe_lst
+m-shinsegaemall.ssg.com##div[class^="wrap css-"] > div:nth-of-type(3)
+m-shinsegaemall.ssg.com##div:nth-of-type(7)
+m-shinsegaemall.ssg.com##.header_appdown
+m-shinsegaemall.ssg.com##.mndtl_universe_lst
+m-shinsegaemall.ssg.com##.mndtl_tyad
+m-shinsegaemall.ssg.com##.mndtl_banner_event
+shinsegaemall.ssg.com##.cdtl_mmbr_wrap
+shinsegaemall.ssg.com##li.cunit_ad.cmitem_grid_item.cdtl_recommend_product_item
 ! 11st
 www.11st.co.kr##.advertisement
+www.11st.co.kr##.c_product_banner_benefit
+www.11st.co.kr##.c_product_banner_product
+www.11st.co.kr##.c_product_banner
+m.11st.co.kr#@#div[class$="-ad"]
+m.11st.co.kr##.c-ad-benefit
+m.11st.co.kr###mwPortal
+m.11st.co.kr###banner-gnb
+m.11st.co.kr##.r-coupon-down__line-banner
+m.11st.co.kr##.c-floating__banner
+plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
+! e-himart
+m.e-himart.co.kr##.hm-app__main_event_layer
+m.e-himart.co.kr##.hm-app__dimm--show.hm-app__dimm
+! cjonstyle
+item.cjonstyle.com##.goto_app_layer_popup
+item.cjonstyle.com##.noti_app_install
+display.cjonstyle.com##.noti_app_install
+display.cjonstyle.com##.pop_type_one
+display.cjonstyle.com###_bannerFlicking
+item.cjonstyle.com###bannerSwiper
+! hnsmall
+m.hnsmall.com##.v2.app_setup
+m.hnsmall.com###promotionPopupNew
+m.hnsmall.com##.layerDim
 ! etc
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
 ||ad-img.ebaykorea.com^
 coocha.co.kr##.group-power-link
+www.myrealtrip.com##div[class*="AppinstallPopup"]
 
 ! - 번개장터
 m.bunjang.co.kr##div[class^="ProductExternalAdsstyle"]

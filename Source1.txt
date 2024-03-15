@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240315.3
+! Version: 240316.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1373,15 +1373,16 @@ www.1024tera.com##.text-banner
 @@||www.googletagmanager.com^$script,domain=pedia.watcha.com
 !watcha.com##section[class^="css-"] section[class^="css-"] > [class^="css-"]:has(a[target="_blank"])
 watcha.com##section[class^="css-"] section[class^="css-"] section[class^="css-"] section[class^="css-"]:has(a[target="_blank"])
+watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
+watcha.com##[href*="https://watcha.com/contents"]
+watcha.com##[href^="https://watcha.com/promotions"]
+watcha.com##[href^="https://watcha.com/notices"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 pedia.watcha.com##img[src*=".png"]
 pedia.watcha.com##[rel^="noreferrer"]
-watcha.com##[href*="https://pedia.watcha.com/ko-KR/promotions"]
-watcha.com##[href*="https://watcha.com/contents"]
-watcha.com##[href^="https://watcha.com/promotions"]
-watcha.com##[href^="https://watcha.com/notices"]
+pedia.watcha.com##[class*="css-"] .backscreen
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image

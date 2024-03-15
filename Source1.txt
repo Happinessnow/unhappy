@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240315.1
+! Version: 240315.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -125,12 +125,6 @@ inven.co.kr##.imt_banner
 inven.co.kr##.inven-float-alarm
 inven.co.kr##.minAd
 inven.co.kr##.mobileDaNs1
-kr.investing.com##.proPromo-stripe
-kr.investing.com##strong
-kr.investing.com##div[class*="promo-strip_proPromo"]
-kr.investing.com##div[class*="mid-page-promo-btn"]
-kr.investing.com##.contentMediaBox
-m.kr.investing.com##.inlineBanner
 
 ! - iq.com
 @@||fundingchoicesmessages.google.com^$script,domain=www.iq.com
@@ -154,12 +148,28 @@ investing.com###Side_Block_Facebook
 investing.com###topHeaderPaddingTopMenuNone
 investing.com##.adsFreeSubscriptionMessage
 investing.com##.desktop\:flex-row.flex-col.flex
-investing.com##.download-app-view_download-app-view__1Y4-f
 investing.com##.installAppPopup
 investing.com##.installAppPopup-top
 investing.com##.mobile.float_lang_base_1
 investing.com##[href="/pro/pricing"]
 investing.com##div[class*="adNotification"]
+kr.investing.com##div[class*="promo-strip_proPromo"]
+kr.investing.com##div[class*="mid-page-promo-btn"]
+kr.investing.com##strong
+kr.investing.com##.proPromo-stripe
+kr.investing.com##.contentMediaBox
+m.kr.investing.com##.inlineBanner
+
+! - finup
+stock.finup.co.kr##[src^="https://img.finup.co.kr/stock/Banner"]
+stock.finup.co.kr##[class*="free"]
+stock.finup.co.kr##[class*="box_rolling"]
+stock.finup.co.kr##[class*="box_bn"]
+stock.finup.co.kr##.cm_main_popup
+stock.finup.co.kr##.cm_thumb_img
+stock.finup.co.kr##.ad
+stock.finup.co.kr##div[class="box_cont small"]
+stock.finup.co.kr##.cm_float_btn
 
 ! - 팝코 / 디지털(사진, 미디어) 포털 사이트
 popco.net###onesignal-slidedown-container

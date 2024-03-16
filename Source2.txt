@@ -1,7 +1,7 @@
 [ Source2 ]
 ! Title: Source2
-! Expires: 168 hours
 ! Homepage: https://open.kakao.com/o/g1O5SExd
+! Expires: 168 hours
 ! Version: 240317.1
 
 ! - 쿠팡

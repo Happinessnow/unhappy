@@ -1,6 +1,7 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
+! Expires: 48 hours
 ! Version: 240317.1
 
 ! - getintoway

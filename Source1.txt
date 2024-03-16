@@ -1,8 +1,7 @@
 [ Source1 ]
 ! Title: Source1
-! Expires: 3 days
 ! Homepage: https://open.kakao.com/o/g1O5SExd
-! Version: 240316.1
+! Version: 240317.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -820,6 +819,9 @@ m.11st.co.kr###mwPortal
 m.11st.co.kr###banner-gnb
 m.11st.co.kr##.r-coupon-down__line-banner
 m.11st.co.kr##.c-floating__banner
+m.11st.co.kr##.swiper-wrapper
+m.11st.co.kr##.c-headline__text
+search.11st.co.kr###section_list
 plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
@@ -1718,6 +1720,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+www.ikea.com###onetrust-consent-sdk
 www.lifewire.com##div[id^="article__broad-video"]
 linktr.ee##div.content-panel.section
 ||resource.steelmedia.co.uk/skins$image

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240317.2
+! Version: 240317.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1722,6 +1722,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+skyve.io#@#button[class^="buttonPress"]
 www.ikea.com###onetrust-consent-sdk
 www.lifewire.com##div[id^="article__broad-video"]
 linktr.ee##div.content-panel.section

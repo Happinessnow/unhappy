@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240317.3
+! Version: 240318.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -814,16 +814,23 @@ www.11st.co.kr##.advertisement
 www.11st.co.kr##.c_product_banner_benefit
 www.11st.co.kr##.c_product_banner_product
 www.11st.co.kr##.c_product_banner
-m.11st.co.kr#@#div[class$="-ad"]
+m.11st.co.kr##.fadeIn.animated.dim
 m.11st.co.kr##.c-ad-benefit
-m.11st.co.kr###mwPortal
-m.11st.co.kr###banner-gnb
-m.11st.co.kr##.r-coupon-down__line-banner
+m.11st.co.kr##.c-banner
+m.11st.co.kr##.c-donation
 m.11st.co.kr##.c-floating__banner
-m.11st.co.kr##.swiper-wrapper
 m.11st.co.kr##.c-headline__text
+m.11st.co.kr##.c-moneybag-guide
+m.11st.co.kr##.mw_bnr
+m.11st.co.kr##.viewport-ad
+m.11st.co.kr##.swiper-container-horizontal.w-swiper
+m.11st.co.kr#@#div[class$="-ad"]
+m.11st.co.kr###banner-gnb
+m.11st.co.kr###mwPortal
+m.11st.co.kr##.r-coupon-down__line-banner
 search.11st.co.kr###section_list
 plan.11st.co.kr##.c-webtoapp--fixed.c-webtoapp
+buy.11st.co.kr##.hope_shopping
 ! tdeal / T딜
 ||cdn.tdeal.kr/images/banners$image
 tdeal.kr##.topBanner__content
@@ -1722,6 +1729,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+cineaste.co.kr##[class^="basic-banner"]
 skyve.io#@#button[class^="buttonPress"]
 www.ikea.com###onetrust-consent-sdk
 www.lifewire.com##div[id^="article__broad-video"]

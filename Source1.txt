@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240318.1
+! Version: 240319.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -737,10 +737,20 @@ www.danawa.com##.main_ad_prodlist
 www.danawa.com##li.prod_ad_item
 ! gmarket
 ||ad-img.gmarket.com/ADS$image
-gmarket.co.kr##.box__inner
+||pics.gmarket.com/smilepay/banner$image
+www.gmarket.co.kr##.box__promotion
+www.gmarket.co.kr##.link__banner
 gmarket.co.kr##.ng-scope.banner
 gmarket.co.kr#@#+js(set-constant, pvprofiler.sendEvt, noopFunc)
 gmarket.co.kr##[src^="https://ad-img.gmarket.com"]
+gmarket.co.kr##[class^="box-smileclub-banner"]
+gmarket.co.kr##[class^="sc_mbr"]
+m.gmarket.co.kr##.box__app-lead
+m.gmarket.co.kr##.box__bottom-banner
+my.gmarket.co.kr##.box__additional-message
+promotion.gmarket.co.kr##.m9.benefit
+signinssl.gmarket.co.kr###login-banner-box
+spweb.gmarket.co.kr##.bx_banner
 ! gsshop
 with.gsshop.com###global-top-banner
 m.gsshop.com##.bnr-item_appdown

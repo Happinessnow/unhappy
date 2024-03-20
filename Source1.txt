@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240320.1
+! Version: 240320.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1340,6 +1340,7 @@ jusopang19.com##p > [href*="https://jusopang19.com"]
 jusopang19.com##div[id^="foogallery-gallery-"]
 jusopang19.com##.pc
 !! tv-etc
+||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
 ||tvzone.sbs/data/banner*$image
 store##[href^="https://daepiso.xyz"]
@@ -1701,6 +1702,7 @@ com##.premium-promo-row
 net##.idtunemklgfsrpchjoq
 net##.mkt_banner
 ! 도박, 토토, 성인게임(불량) // 2024-mar
+*##[href="http://dh-202.com"]
 *##[href="http://fs-ddff.com"]
 *##[href*="1bet1"]
 *##[href*="aarq"]

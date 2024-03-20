@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240319.2
+! Version: 240320.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1281,6 +1281,7 @@ sonagi.org##li:nth-of-type(4)
 waaboom.com##center:nth-of-type(1)
 waaboom.com##center:nth-of-type(2)
 ! tvchak
+@@||imgbox.com^
 ||images*.imgbox.com/aa/cd/*.jpg$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/ba*/$image
 /^https:\/\/tvchak[0-9]+\.com\/img\/bb*/$image

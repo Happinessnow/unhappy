@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240321.3
+! Version: 240321.4
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1430,6 +1430,7 @@ pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 pedia.watcha.com##img[src*=".png"]
 pedia.watcha.com##[rel^="noreferrer"]
+pedia.watcha.com##.backscreen
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image

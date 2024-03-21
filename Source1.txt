@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240320.2
+! Version: 240321.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -599,6 +599,14 @@ sedaily.com##.art_rel
 ! seoul
 seoul.co.kr###newsletterPop
 seoul.co.kr###slick_banner
+||wwwads.seoul.co.kr^$subdocument
+en.seoul.co.kr##.listAD
+en.seoul.co.kr##[class^="articleInnerAd"]
+en.seoul.co.kr##[class^="articleAD"]
+en.seoul.co.kr##[title*="AdIframe"]
+en.seoul.co.kr##[class*="hed_ad"]
+m.en.seoul.co.kr##[id^="seoulAD"]
+m.en.seoul.co.kr##div:nth-of-type(3)
 ! wikitree
 wikitree.co.kr##.clearfix
 wikitree.co.kr##.wikitree_tv
@@ -1117,6 +1125,7 @@ comic.naver.com##.cont_app_banner
 comic.naver.com##.item_banner
 comic.naver.com$@$div[id="ppl_default_section"]
 ! map.naver, 지도
+map.naver.com##.notice_wrap
 map.naver.com##.ng-trigger-fadeInWrap.notice_wrap
 map.naver.com##.ng-trigger-promotionToggleEffect
 map.naver.com##around-contents-card
@@ -1129,6 +1138,12 @@ pay.naver.com##.commonBannerArea
 pay.naver.com##.membership_sc
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
+orders.pay.naver.com##[class^="MembershipOrderBanner"]
+orders.pay.naver.com##[class^="AiTEMS_article"]
+new-m.pay.naver.com##[class^="SmartChannel_article"]
+new-m.pay.naver.com##[class^="NaverPlusMembership"]
+shopping.naver.com##[class^="NPaySection_my_membership"]
+shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1144,6 +1159,8 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
 talk.naver.com##._marketingMessage
 ! naver etc
+www.naver.com##[href="https://nid.naver.com/membership/join"]
+m.booking.naver.com##.banner_area
 search.shopping.naver.com##div[id] > div[class^=aside_aside__]
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
 pcmap.place.naver.com##.l__qc.no_margin.place_section
@@ -1177,10 +1194,10 @@ premium.naver.com##.bottom_layer
 ||toonkor*.*/bann/*.jpg$image
 ||toonkor*.*/images/*.jpg$image
 ! WFWF, Wtoon
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##[href="/w6"]
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.top.row
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.left > ul > li:nth-of-type(4)
-wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com,wtwt245.com,wtwt244.com,wtwt243.com,wtwt242.com,wtwt241.com,wtwt240.com,wtwt239.com,wtwt238.com,wtwt237.com,wtwt236.com,wtwt235.com,wtwt234.com,wtwt233.com,wtwt232.com,wtwt231.com,wtwt230.com,wtwt229.com,wtwt228.com,wtwt227.com##.toon-bottom
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##[href="/w6"]
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.top.row
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.left > ul > li:nth-of-type(4)
+wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.com,wtwt269.com,wtwt268.com,wtwt267.com,wtwt266.com,wtwt265.com,wtwt264.com,wtwt263.com,wtwt262.com,wtwt261.com,wtwt260.com,wtwt259.com,wtwt258.com,wtwt257.com,wtwt256.com,wtwt255.com,wtwt254.com,wtwt253.com,wtwt252.com,wtwt251.com,wtwt250.com,wtwt249.com,wtwt248.com,wtwt247.com,wtwt246.com##.toon-bottom
 ! agit
 ||agit*.xyz/*/banner/$image
 ||agit*.xyz/upload/$image
@@ -1725,7 +1742,6 @@ net##.mkt_banner
 *##[href*="tgtg"]
 *##[href*="tinyurl.com/yzpxazdx"]
 *##[href*="tksxk"]
-*##[href*="toto"]
 *##[href*="v210x10b"]
 *##[href*="wbet"]
 *##[href*="yadong"]

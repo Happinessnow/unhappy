@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240321.1
+! Version: 240321.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1056,7 +1056,7 @@ carmmunity.oilnow.co.kr##[src*="/channel_banners_images/"]
 search.naver.com##._ad.box
 search.naver.com##.ad_section
 search.naver.com##.type_ad
-! m.naver_2023-June
+! m.naver
 naver.com###ad_timeboard
 naver.com###HOME_AD
 naver.com###MM_SEARCH_NOW
@@ -1073,15 +1073,18 @@ naver.com##.MM_CHANNEL_BOTTOM_BANNER
 naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
-! m.naver_2023-Dec
+! m.naver - 2023-Dec
 m.naver.com##div.id_comp_home_feed
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
+m.naver.com###MM_na_topbanner
 naver.com###MM_search_todaynaver
 naver.com##.id_comp_napp_banner
 naver.com##.type_load
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.id_comp_guarantee_banner
 naver.com##.csm_title_wrap
+! m.naver - 2024-Mar
+m.naver.com###MM_na_topbanner
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -1763,6 +1766,8 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
+!||azweb.apti.co.kr/v2f/api.event/adcount
+azapi.apti.co.kr###noticePopup
 cineaste.co.kr##[class^="basic-banner"]
 skyve.io#@#button[class^="buttonPress"]
 www.ikea.com###onetrust-consent-sdk

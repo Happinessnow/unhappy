@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240321.4
+! Version: 240322.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1430,7 +1430,7 @@ pedia.watcha.com##div[class*="media-area css-"]
 pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 pedia.watcha.com##img[src*=".png"]
 pedia.watcha.com##[rel^="noreferrer"]
-pedia.watcha.com##.backscreen
+!pedia.watcha.com##.backscreen - 팝업을 차단 하지만 메뉴 작성 별점 등이 안되는 문제로 해제
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image

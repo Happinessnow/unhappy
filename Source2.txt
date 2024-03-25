@@ -172,6 +172,7 @@
 ||interworksmedia.co.kr^
 
 ! - 기타
+||adbrix.io^
 ||trace.rememberapp.co.kr^
 ||static.stax.kr^
 ||*.stax.kr^

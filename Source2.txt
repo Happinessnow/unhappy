@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 168 hours
-! Version: 240317.1
+! Version: 240325.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -167,7 +167,6 @@
 ||mrgreekroad.com^
 ||imadrep.co.kr^
 ||reople.co.kr^
-||innorame.com^
 ||adpnut.com^
 ||adjw.co.kr^
 ||interworksmedia.co.kr^
@@ -235,6 +234,7 @@
 ||www.mypetcare.co.kr^
 
 ! - 기타
+@@||innorame.com^
 @@||pizza.hyundaicard.com^
 @@||ansimclick.hyundaicard.com^
 @@||appcardapp3.hyundaicard.com^

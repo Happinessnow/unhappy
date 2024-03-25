@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240322.1
+! Version: 240325.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -170,6 +170,7 @@ stock.finup.co.kr##.cm_thumb_img
 stock.finup.co.kr##.ad
 stock.finup.co.kr##div[class="box_cont small"]
 stock.finup.co.kr##.cm_float_btn
+finance.finup.co.kr##.box_bn
 
 ! - 팝코 / 디지털(사진, 미디어) 포털 사이트
 popco.net###onesignal-slidedown-container
@@ -236,7 +237,6 @@ www.msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-co
 www.msn.com##div > end-of-content-block[category="others"]
 www.msn.com##.article-cont-read-button-on-app
 www.msn.com##social-lead-gen-in-article
-
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -619,6 +619,7 @@ yna.co.kr##.wrap-header01
 ytn.co.kr##.YTN_CSA_newsletter
 ytn.co.kr##.newsletter
 ytn.co.kr##.top_banner
+star.ytn.co.kr##[title^="하단 광고"]
 ! zdnet
 zdnet.co.kr##.webinar
 ! mk
@@ -656,13 +657,20 @@ dt.co.kr##div.bk40
 ||alphabiz.co.kr/*/banner$image
 ||widget.publish.link/$subdocument
 widget.publish.link##.pcBanner
+! stoo / 스포츠투데이
+www.stoo.com##img[src^="/banner/"]
+www.stoo.com##img[src^="/ad/"]
+www.stoo.com##.ad_shoopng
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
+www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
 etnews.com##div.ad_300x250
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
 @@/openads/*
 openads.co.kr##.adBanner
+mksports.co.kr##[id^="slot"]
+
 
 ! - 모두닥
 modoodoc.com###ad-post
@@ -836,6 +844,7 @@ www.11st.co.kr##.advertisement
 www.11st.co.kr##.c_product_banner_benefit
 www.11st.co.kr##.c_product_banner_product
 www.11st.co.kr##.c_product_banner
+www.11st.co.kr##.r-coupon-down__line-banner
 m.11st.co.kr##.fadeIn.animated.dim
 m.11st.co.kr##.c-ad-benefit
 m.11st.co.kr##.c-banner
@@ -1143,10 +1152,12 @@ pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
 orders.pay.naver.com##[class^="MembershipOrderBanner"]
 orders.pay.naver.com##[class^="AiTEMS_article"]
+order.pay.naver.com##._membership_campaign_area
 new-m.pay.naver.com##[class^="SmartChannel_article"]
 new-m.pay.naver.com##[class^="NaverPlusMembership"]
 shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
+m.pay.naver.com##[class^="shopping_section _shopping_aitems"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
@@ -1766,7 +1777,7 @@ net##.mkt_banner
 *##[src*="/side_banner/"]
 
 ! - 기타
-!||azweb.apti.co.kr/v2f/api.event/adcount
+wareable.com##[id*="div-gpt-ad"]
 azapi.apti.co.kr###noticePopup
 cineaste.co.kr##[class^="basic-banner"]
 skyve.io#@#button[class^="buttonPress"]

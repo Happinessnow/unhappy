@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240326.3
+! Version: 240326.4
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1093,7 +1093,7 @@ naver.com##.type_load
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.id_comp_guarantee_banner
 naver.com##.csm_title_wrap
-! m.naver - 2024-Mar
+! m.naver - 2024-03
 m.naver.com###MM_na_topbanner
 ! news.naver, news
 news.naver.com##._da_banner
@@ -1734,7 +1734,7 @@ com##.detail-banner
 com##.premium-promo-row
 net##.idtunemklgfsrpchjoq
 net##.mkt_banner
-! 도박, 토토, 성인게임(불량) // 2024-mar
+! 도박, 토토, 성인게임(불량) // 2024-03
 *##[href="http://dh-202.com"]
 *##[href="http://fs-ddff.com"]
 *##[href*="1bet1"]
@@ -1777,6 +1777,7 @@ net##.mkt_banner
 *##[href="http://cs-ca.com/"]
 *##[href="https://xn--vv0b56ah5v.net/"]
 *##[src*="/side_banner/"]
+*##[href*="bbellabet.com"]
 
 ! - 기타
 wareable.com##[id*="div-gpt-ad"]

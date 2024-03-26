@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240325.1
+! Version: 240326.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1683,7 +1683,6 @@ a-ads.com##.size320x50
 *##.coupang_ad
 *##.bannerWrap
 *##.banner_menu
-*##.banner
 *##.adtester-container
 *##.adslot_collapse
 *##.adsbox970x90

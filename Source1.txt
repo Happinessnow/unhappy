@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240326.1
+! Version: 240326.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1182,7 +1182,7 @@ pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 
-! - WebToon / 웹툰 // 2024-Feb
+! - WebToon / 웹툰 // 2024-03
 ##.modal-wrapper
 ! webtoon logo
 ||booktoki*.com/img/logo*
@@ -1267,6 +1267,8 @@ tooncome.com##section#container_middle.idx_section2.idx_section:nth-of-type(1)
 cartoonnetworkkorea.com###onetrust-consent-sdk
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
 hotword.site##div.col-md-6
+!*##img[src^="https://iabn"]
+||iabn*.net$image
 
 ! - TV, 다시보기, 만화, 웹툰, 웹소설, 스포츠라이브
 ! 누누티비 / 누누티비.tv / 티비위키(tvwiki)

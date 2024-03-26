@@ -925,7 +925,6 @@ danawa.com##li.ad.shop_link_item
 ||*.ad.kakaocorp.com^
 ||ad-content.*.kakao.com^
 ||adserver.*.kakao.com^
-||page.kakao.com/_next/*_banner_*.png$image
 ||ad.daum.net^$important
 ||adclix.daum.net^$important
 ||adclixad.daum.net^$important
@@ -938,6 +937,8 @@ danawa.com##li.ad.shop_link_item
 ||t1.daumcdn.net/adfit/*
 ||tr.*.daum.net/*
 ||webid.ad.daum.net^$important
+||page.kakao.com/_next/*_banner_*.png$image
+page.kakao.com##img[alt^="pc 앱"]
 map.kakao.com##.Howto
 map.kakao.com##.AdItem
 ! Daum Search Ads

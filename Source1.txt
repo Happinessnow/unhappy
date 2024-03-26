@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240326.2
+! Version: 240326.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1336,9 +1336,9 @@ etoland.co.kr###bottom-big-banner
 etoland.co.kr###main_popup
 etoland.co.kr##.power_link_top_wrap
 ! torrentsee
+com##div[class="adver-list"]
 ||torrentsee*.com/*/*.gif$image
 ||torrentsee*.com/*/*.png$image
-||torrentsee*.com/*/up64e*.jpg$image
 !! 스포츠라이브
 *###addon-popup1-layer
 *###addon-popup2-layer

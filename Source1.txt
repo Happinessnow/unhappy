@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240328.1
+! Version: 240328.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -226,18 +226,19 @@ nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
 nocutnews.co.kr##.slick-slide.rainbow
 ! bing, MSN
+bing.com##[id^="nativead"]
+bing.com##[id^="native_ad"]
+bing.com##[class^="native-ad"]
 bing.com##.openfo.toolTip.id_button
 bing.com###id_rh
 bing.com##.header
 bing.com##.ttc_visible
-bing.com##[id^="nativead"]
-bing.com##[id^="native_ad"]
-bing.com##[class^="native-ad"]
+msn.com##[id^="native_ad"]
+msn.com##[id^="entry-point-hp-wc-banner"]
+msn.com##[class^="preview-card"]
 msn.com##display-ads
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##article-close-button
-msn.com##[id^="native_ad"]
-msn.com##[class^="preview-card"]
 msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
 msn.com##div > end-of-content-block[category="others"]
 msn.com##.article-cont-read-button-on-app

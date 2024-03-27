@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240326.4
+! Version: 240327.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -752,6 +752,7 @@ www.danawa.com##.event_link
 www.danawa.com##.main_ad_prodlist
 www.danawa.com##li.prod_ad_item
 ! gmarket
+@@||script.gmarket.co.kr^$script
 ||ad-img.gmarket.com/ADS$image
 ||pics.gmarket.com/smilepay/banner$image
 www.gmarket.co.kr##.box__promotion

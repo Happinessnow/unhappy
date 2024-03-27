@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240327.1
+! Version: 240328.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -230,13 +230,18 @@ bing.com##.openfo.toolTip.id_button
 bing.com###id_rh
 bing.com##.header
 bing.com##.ttc_visible
+bing.com##[id^="nativead"]
+bing.com##[id^="native_ad"]
+bing.com##[class^="native-ad"]
 msn.com##display-ads
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##article-close-button
-www.msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
-www.msn.com##div > end-of-content-block[category="others"]
-www.msn.com##.article-cont-read-button-on-app
-www.msn.com##social-lead-gen-in-article
+msn.com##[id^="native_ad"]
+msn.com##[class^="preview-card"]
+msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-content-block
+msn.com##div > end-of-content-block[category="others"]
+msn.com##.article-cont-read-button-on-app
+msn.com##social-lead-gen-in-article
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -1651,16 +1656,25 @@ speedtest.net##.prompt-modal
 speedtest.net###onetrust-consent-sdk
 speedtest.net###modal-overlay
 
-! cosmorning.com
+! - cosmorning.com
 cosmorning.com##.banner_wrap
 cosmorning.com##.com_ban
 cosmorning.com##.banner_slide
 cosmorning.com###subscPop
 
-! wetv.vip
+! - wetv.vip
 wetv.vip##.minipay-ifame
 wetv.vip##.minipay-bg
 wetv.vip##.modal__content
+
+! - skyve.io
+skyve.io#@#button[class^="buttonPress"]
+skyve.io##.program_slidshow
+skyve.io##[class="clear"]
+skyve.io##.footer-middle
+skyve.io##[class="buulseubo"]
+skyve.io##[class^="okbdx"]
+skyve.io##script[src="//ausoafab.net/tag.min.js"]
 
 ! - Ads Tags, 광고 태그, a-ads
 ||ad.a-ads.com^
@@ -1784,7 +1798,6 @@ net##.mkt_banner
 wareable.com##[id*="div-gpt-ad"]
 azapi.apti.co.kr###noticePopup
 cineaste.co.kr##[class^="basic-banner"]
-skyve.io#@#button[class^="buttonPress"]
 www.ikea.com###onetrust-consent-sdk
 www.lifewire.com##div[id^="article__broad-video"]
 linktr.ee##div.content-panel.section

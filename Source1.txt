@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240328.2
+! Version: 240403.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1294,7 +1294,6 @@ top##.partner-banner-flex:nth-of-type(2)
 sbs##.custom_banner_wrap
 live##.custom_banner_wrap
 ! dasibogo, 다시보고
-*##figure.size-full.wp-block-image
 *##.wp-block-gallery-1.wp-block-gallery
 ! koreanz
 koreanz.xyz##div:nth-of-type(4)

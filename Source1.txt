@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240403.1
+! Version: 240404.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -659,6 +659,7 @@ mobile.newsis.com##.fixBanner
 dt.co.kr##.main_wrap > center
 dt.co.kr##div.bk20
 dt.co.kr##div.bk40
+dt.co.kr##[class^="jizsl"]
 ! alphabiz
 ||alphabiz.co.kr/*/banner$image
 ||widget.publish.link/$subdocument
@@ -699,6 +700,7 @@ modoodoc.com##div.hospital_list_mobile_ad_event_click
 
 ! - 쇼핑몰 / Tmon, Coupang, CooCha, Aliexpress, WemakePrice, Gmarket, Auction, SSG, interpark, LotteON, 11st, tdeal(T딜)
 ! aliexpress
+mbest.aliexpress.com###header-float-banner
 aliexpress.com###container-for-smart-banner
 aliexpress.com##.pop-picture
 aliexpress.com##.ranking-main
@@ -710,6 +712,7 @@ auction.co.kr##.module_slot.promo
 ! coupang
 @@||/bannerunit/*
 @@||/banner/*$domain=coupang.com
+@@||mercury.coupang.com/e.gif$xhr
 ||ads-partners.coupang.com^
 ||static.coupangcdn.com/*/banner$image
 ||myqcloud.com^$app=com.coupang.mobile
@@ -1468,6 +1471,8 @@ apkpure.com##.debut-game
 apkpure.com##.share-box
 apkpure.com##.share-fixed
 apkpure.net###policy-info
+apkpure.com###credential_picker_iframe
+
 ! apkmirror
 apkmirror.com###bottom-slider
 apkmirror.com###ez-content-blocker-container
@@ -1475,6 +1480,8 @@ apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
 apkmirror.com##aside[id^="appmanager_s"]
 apkmirror.com##div[id^="adtester"]
 apkmirror.com##div[class^="OUTBRAIN"]
+apkmirror.com##[class^="ezmob-footer"]
+apkmirror.com##[id="ezmobfooter"]
 ! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]

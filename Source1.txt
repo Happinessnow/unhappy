@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240407.1
+! Version: 240407.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1208,6 +1208,7 @@ premium.naver.com##.bottom_layer
 ||imgcloud*.net/*.gif$image
 ||imgcloud*.net/*.png$image
 ||manatoki*.net/*/*.gif?_=*$image
+||img.timiai*.com/img/danbi*.png$image
 ! newtoki
 ||booktoki*.com/*/*.gif?_=*
 ||newtoki*.com/tokinbtoki/*.gif?_=*
@@ -1233,6 +1234,7 @@ wtwt276.com,wtwt275.com,wtwt274.com,wtwt273.com,wtwt272.com,wtwt271.com,wtwt270.
 ||imgsuperpower.com/*.gif$image
 ||static.springbuilder.site/*/*/alphabet*-*-*/*/*.gif$image
 ||blogger.googleusercontent.com/img/*/AVvXsE*$image
+hdhd362.net,hdhd361.net,hdhd360.net,hdhd359.net,hdhd358.net,hdhd357.net,hdhd356.net,hdhd355.net,hdhd354.net,hdhd353.net,hdhd352.net,hdhd351.net,hdhd350.net,hdhd349.net,hdhd348.net,hdhd347.net,hdhd346.net,hdhd345.net,hdhd344.net,hdhd343.net,hdhd342.net,hdhd341.net,hdhd340.net,hdhd339.net,hdhd338.net,hdhd337.net,hdhd336.net,hdhd335.net,hdhd334.net,hdhd333.net##.alert_windows
 ! 밤토끼
 co.com##.gnb > li:nth-of-type(3)
 co.com##.gnb > li:nth-of-type(4)
@@ -1815,6 +1817,8 @@ net##.mkt_banner
 *##[href="https://xn--vv0b56ah5v.net/"]
 *##[src*="/side_banner/"]
 *##[href*="bbellabet.com"]
+*##[href*="vipkkhh.com"]
+*##[href*="hlbam13.com"]
 
 ! - 기타
 wareable.com##[id*="div-gpt-ad"]

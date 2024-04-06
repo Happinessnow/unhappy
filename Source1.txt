@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240404.1
+! Version: 240407.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -995,6 +995,7 @@ dcinside.com###comment_li_0
 ||pagead2.googlesyndication.com^
 ||fundingchoicesmessages.google.com^
 google.com###topstuff
+||accounts.google.com/gsi/iframe/select$subdocument
 
 ! - AfreecaTV 
 ||admvod.afreecatv.com^
@@ -1378,10 +1379,18 @@ com##div.main_link.f9_box01:nth-of-type(3)
 com##div.main_link.f9_box01:nth-of-type(4)
 com##div.main_link.f9_box01:nth-of-type(9)
 ! jusopang
-jusopang19.com##p:nth-of-type(14)
-jusopang19.com##p > [href*="https://jusopang19.com"]
-jusopang19.com##div[id^="foogallery-gallery-"]
-jusopang19.com##.pc
+@@||jusopang*.com/*.png
+||jusopang*.com/*/*330x230*.webp$image
+||jusopang*.com/*.webp$image
+||jusopang*.com/*.gif$image
+jusopang20.com##p:nth-of-type(14)
+jusopang20.com##p > [href*="https://jusopang20.com"]
+jusopang20.com##div[id^="foogallery-gallery-"]
+jusopang20.com##.pc
+com##[id="jt_popup_container"]
+com##[href*="com/aduit/"]
+com##[href*="com/op/"]
+com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
 !! tv-etc
 ||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
@@ -1682,6 +1691,12 @@ skyve.io##.footer-middle
 skyve.io##[class="buulseubo"]
 skyve.io##[class^="okbdx"]
 skyve.io##script[src="//ausoafab.net/tag.min.js"]
+
+! - a-ha.io
+@@||media.a-ha.io/aha-qna/assets/common/$image
+a-ha.io##.homeCarousel.headerCarousel
+a-ha.io##.expert-section-wrapper
+a-ha.io##[href="/extras/about-membership"]
 
 ! - Ads Tags, 광고 태그, a-ads
 ||ad.a-ads.com^

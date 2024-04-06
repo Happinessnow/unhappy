@@ -1859,6 +1859,7 @@ phoneppu.com###div_laypopup
 humoruniv.com###choo_web_read_top_wrap
 humoruniv.com##.adsbyadop
 ||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
+darkscans.com##.wp-manga.c-top-sidebar.c-sidebar
 asuratoon.com##.ai-sticky-widget
 ||i.keezip.com/ad/*
 mvnohub.kr##.head_banner

@@ -7,7 +7,6 @@
 ! - 쿠팡
 @@||coupangeats.app.link^
 @@||weblog.coupang.com^
-||cdn.discordapp.com/*$image
 ||ad-video.coupangcdn.com^
 ||ads-partners.coupang.com^
 

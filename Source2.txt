@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 168 hours
-! Version: 240325.1
+! Version: 240408.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240407.2
+! Version: 240410.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1174,6 +1174,7 @@ m.pay.naver.com##[class^="shopping_section _shopping_aitems"]
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image
 ||nng-phinf.pstatic.net/*.PNG/*_714x400.png$image
+chzzk.naver.com##[class^="live_chatting_input_discount"]
 ! talks.naver.com
 talks.naver.com##div[class^="GuideArea_wrap"]
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(3)
@@ -1461,10 +1462,10 @@ watcha.com##[href^="https://watcha.com/promotions"]
 watcha.com##[href^="https://watcha.com/notices"]
 pedia.watcha.com##div[class^="desktop css-"]
 pedia.watcha.com##div[class*="media-area css-"]
-pedia.watcha.com##[href^="https://www.youtube.com/watch"]
 pedia.watcha.com##img[src*=".png"]
 pedia.watcha.com##[rel^="noreferrer"]
-!pedia.watcha.com##.backscreen - 팝업을 차단 하지만 메뉴 작성 별점 등이 안되는 문제로 해제
+pedia.watcha.com##[alt*="광고"]
+pedia.watcha.com##[alt*="배너"]
 
 ! - kinolights.com
 ||file.kinolights.com/original/banner$image
@@ -1821,6 +1822,8 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+riskweather.io##[alt="ads"]
+riskweather.io##[class^="w-full bg-white h-[70px]"]
 wareable.com##[id*="div-gpt-ad"]
 azapi.apti.co.kr###noticePopup
 cineaste.co.kr##[class^="basic-banner"]
@@ -1843,6 +1846,7 @@ paraphrasing.io##.min-h-5
 softwareok.com##td:nth-of-type(2) > center
 softwareok.com##center:nth-of-type(2)
 karanpc.com##.litespeed-loaded.entered.aligncenter
+karanpc.com##[class^="ads-"]
 msnews/edgenext
 msnews/libs^
 msnews/node_modules^

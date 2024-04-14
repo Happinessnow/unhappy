@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240410.1
+! Version: 240414.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1185,11 +1185,29 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(7)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
 talk.naver.com##._marketingMessage
+talk.naver.com##li.menu_item:nth-of-type(2)
+! smartstore.naver
+||ssl.pstatic.net/static/common/gnb/banner/promo_npay_*.png$image
+smartstore.naver.com##[data-shp-area-id="externalbanner"]
+smartstore.naver.com##[alt^="멤버십_제너럴소재"]
+smartstore.naver.com##[data-shp-inventory="banner"]
+smartstore.naver.com##[class*="banner"]
+shopping.naver.com##[class*="advertising_banner"]
+shopping.naver.com##[class^="card_promotion"]
+shopping.naver.com##[class^="promotion_notice"]
+shopping.naver.com##a[class*="myInformationResponsive_membership_area"]
+shopping.naver.com##div[class^="CardSection_card_section"]:nth-of-type(4)
+shopping.naver.com##span[class^="myProductList_membership"]
+new-m.pay.naver.com##span > span[class^="Product_icon"]
+new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
+new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
+orders.pay.naver.com##[class^="PromotionBanner"]
+naver.com##.gnb_banner
+naver.com##.gnb_pay
 ! naver etc
 www.naver.com##[href="https://nid.naver.com/membership/join"]
 m.booking.naver.com##.banner_area
 search.shopping.naver.com##div[id] > div[class^=aside_aside__]
-smartstore.naver.com##[data-shp-area-id="externalbanner"]
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
@@ -1358,6 +1376,17 @@ com##div[class="adver-list"]
 *###addon-popup3-layer
 *###addon-popup4-layer
 *###addon-popup5-layer
+! tentv
+||tentv*.com/*$image
+! coktv
+||coktv*.com/mod/data/editor/*.gif$image
+||coktv*.com/mod/data/img/*.gif$image
+! gltv
+||gltv*.com/files/attach/*.png$image
+||gltv*.com/files/attach/*.jpg$image
+||gltv*.com/files/attach/*.gif$image
+||gltv*.com/files/attach/*.gif$image
+||gltv*.com/layouts/fado/files/*.gif$image
 !! 애니
 ! linkkf.app / linkkf.tv
 @@||ani1c1.top^$image

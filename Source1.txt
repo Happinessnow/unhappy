@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240415.1
+! Version: 240419.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -781,6 +781,7 @@ promotion.gmarket.co.kr##.smileclub_bnr
 promotion.gmarket.co.kr##.sns.area
 signinssl.gmarket.co.kr###login-banner-box
 spweb.gmarket.co.kr##.bx_banner
+checkout.gmarket.co.kr##.box__club-banner
 ! gsshop
 with.gsshop.com###global-top-banner
 m.gsshop.com##.bnr-item_appdown
@@ -817,6 +818,7 @@ m.shop.interpark.com##.popupClose
 m.shop.interpark.com##.bottom.popupWrap
 m.shop.interpark.com##.appBanner
 m.shop.interpark.com##.cmBanner
+shopping.interpark.com##.priceUpper
 ! qoo10
 qoo10.com##.bnnr_area
 qoo10.com##.m_ad_bnnr
@@ -1095,17 +1097,17 @@ naver.com##.MM_NEWS_CHANNEL_PROMOTION_TOP_BANNER
 naver.com##.nplus_wrap
 naver.com##.st_show._tutorial_wrap.section_tutorial
 ! m.naver - 2023-Dec
-m.naver.com##div.id_comp_home_feed
+m.naver.com###MM_na_topbanner
 m.naver.com##._MM_VIDEO_PREVIEW_WRAP.comp_shortform_new
-m.naver.com###MM_na_topbanner
+m.naver.com##div.id_comp_home_feed
 naver.com###MM_search_todaynaver
-naver.com##.id_comp_napp_banner
-naver.com##.type_load
-naver.com##.MM_GIFT_FLICK_BANNER
-naver.com##.id_comp_guarantee_banner
 naver.com##.csm_title_wrap
-! m.naver - 2024-03
-m.naver.com###MM_na_topbanner
+naver.com##.gnb_banner
+naver.com##.gnb_pay
+naver.com##.id_comp_guarantee_banner
+naver.com##.id_comp_napp_banner
+naver.com##.MM_GIFT_FLICK_BANNER
+naver.com##.type_load
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -1116,10 +1118,11 @@ news.naver.com##.more_news2
 news.naver.com##.promotion
 ! nid.naver
 nid.naver.com##.banner_wrap
-nid.naver.com##.floating.container
 ! notify.naver, 알림
 notify.naver.com##.comp_benefit
 notify.naver.com##.comp_channel
+notify.naver.com##.banner
+notify.naver.com##.native_scroll
 ! blog.naver, 블로그
 @@||m.blog.naver.com^$popup
 blog.naver.com##.btm_banner
@@ -1186,6 +1189,8 @@ talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(8)
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(9)
 talk.naver.com##._marketingMessage
 talk.naver.com##li.menu_item:nth-of-type(2)
+talks.naver.com##[class^="AdBanner"]
+talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
 ! smartstore.naver
 ||ssl.pstatic.net/static/common/gnb/banner/promo_npay_*.png$image
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
@@ -1198,16 +1203,19 @@ shopping.naver.com##[class^="promotion_notice"]
 shopping.naver.com##a[class*="myInformationResponsive_membership_area"]
 shopping.naver.com##div[class^="CardSection_card_section"]:nth-of-type(4)
 shopping.naver.com##span[class^="myProductList_membership"]
+search.shopping.naver.com##div[id] > div[class^=aside_aside__]
+search.shopping.naver.com##[class^="product_mall_option"]
 new-m.pay.naver.com##span > span[class^="Product_icon"]
 new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
 new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
 orders.pay.naver.com##[class^="PromotionBanner"]
-naver.com##.gnb_banner
-naver.com##.gnb_pay
+! mycar.naver
+mycar.naver.com##div[class^="FeedManagement_advertisement"]
+mycar.naver.com##a[class^="Banner_article"]
+mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
 ! naver etc
 www.naver.com##[href="https://nid.naver.com/membership/join"]
 m.booking.naver.com##.banner_area
-search.shopping.naver.com##div[id] > div[class^=aside_aside__]
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer

@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240419.1
+! Version: 240419.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1170,7 +1170,6 @@ orders.pay.naver.com##[class^="AiTEMS_article"]
 order.pay.naver.com##._membership_campaign_area
 new-m.pay.naver.com##[class^="SmartChannel_article"]
 new-m.pay.naver.com##[class^="NaverPlusMembership"]
-shopping.naver.com##[class^="NPaySection_my_membership"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
 m.pay.naver.com##[class^="shopping_section _shopping_aitems"]
 ! chzzk
@@ -1192,29 +1191,20 @@ talk.naver.com##li.menu_item:nth-of-type(2)
 talks.naver.com##[class^="AdBanner"]
 talks.naver.com##section[class^="SectionWrapper_wrap"]:nth-of-type(10)
 ! smartstore.naver
-||ssl.pstatic.net/static/common/gnb/banner/promo_npay_*.png$image
 smartstore.naver.com##[data-shp-area-id="externalbanner"]
 smartstore.naver.com##[alt^="멤버십_제너럴소재"]
 smartstore.naver.com##[data-shp-inventory="banner"]
 smartstore.naver.com##[class*="banner"]
 shopping.naver.com##[class*="advertising_banner"]
-shopping.naver.com##[class^="card_promotion"]
-shopping.naver.com##[class^="promotion_notice"]
-shopping.naver.com##a[class*="myInformationResponsive_membership_area"]
-shopping.naver.com##div[class^="CardSection_card_section"]:nth-of-type(4)
-shopping.naver.com##span[class^="myProductList_membership"]
-search.shopping.naver.com##div[id] > div[class^=aside_aside__]
-search.shopping.naver.com##[class^="product_mall_option"]
-new-m.pay.naver.com##span > span[class^="Product_icon"]
-new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
-new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
+!new-m.pay.naver.com##span > span[class^="Product_icon"]
+!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(1)
+!new-m.pay.naver.com##li[class^="ADRewardListBenefit_item-card"]:nth-of-type(2)
 orders.pay.naver.com##[class^="PromotionBanner"]
 ! mycar.naver
 mycar.naver.com##div[class^="FeedManagement_advertisement"]
 mycar.naver.com##a[class^="Banner_article"]
 mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
 ! naver etc
-www.naver.com##[href="https://nid.naver.com/membership/join"]
 m.booking.naver.com##.banner_area
 pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap

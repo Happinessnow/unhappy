@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240419.2
+! Version: 240419.3
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1499,7 +1499,7 @@ pedia.watcha.com##[alt*="배너"]
 ||file.kinolights.com/original/banner$image
 m.kinolights.com##[href="https://linktr.ee/showbox.movie"]
 
-! - apk-store
+! - apk store
 ! apkcombo
 apkcombo.com##.ad-pss
 apkcombo.com##div.widget
@@ -1512,16 +1512,19 @@ apkpure.com##.share-box
 apkpure.com##.share-fixed
 apkpure.net###policy-info
 apkpure.com###credential_picker_iframe
-
 ! apkmirror
-apkmirror.com###bottom-slider
-apkmirror.com###ez-content-blocker-container
-apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
-apkmirror.com##aside[id^="appmanager_s"]
-apkmirror.com##div[id^="adtester"]
-apkmirror.com##div[class^="OUTBRAIN"]
-apkmirror.com##[class^="ezmob-footer"]
-apkmirror.com##[id="ezmobfooter"]
+www.apkmirror.com###bottom-slider
+www.apkmirror.com###ez-content-blocker-container
+www.apkmirror.com###sidebar > div.listWidget:nth-of-type(1)
+www.apkmirror.com##aside[id^="appmanager_s"]
+www.apkmirror.com##div[class^="OUTBRAIN"]
+www.apkmirror.com##[class*="outbrain_ad"]
+www.apkmirror.com##[class^="ezmob-footer"]
+www.apkmirror.com##[id="ezmobfooter"]
+www.apkmirror.com##[class^="adsbygoogle"]
+www.apkmirror.com##[id^="google_ads"]
+www.apkmirror.com##[class="grippy-host"]
+www.apkmirror.com##[id^="adtester"]
 ! playmods
 playmods.net##.ad-height-2
 playmods.net##[href="http://playmods.net/online"]

@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 168 hours
-! Version: 240408.1
+! Version: 240421.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -234,6 +234,7 @@
 ||www.mypetcare.co.kr^
 
 ! - 기타
+@@||minepi.com^
 @@||innorame.com^
 @@||pizza.hyundaicard.com^
 @@||ansimclick.hyundaicard.com^

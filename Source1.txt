@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240419.3
+! Version: 240422.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -678,6 +678,14 @@ kjtimes.com##.top_banner
 openads.co.kr##.adBanner
 mksports.co.kr##[id^="slot"]
 
+! - op.gg
+||talk.op.gg/images/banner$image
+talk.op.gg##[src="/images/300x300_web.png"]
+pubg.op.gg##[id*="ad-container"]
+op.gg#@#[id^="div-gpt-ad"]:not([class]):upward(div[class])
+op.gg#@##__next > div[class^="css-"]:has(> div[id^="div-gpt-ad"])
+op.gg##.premium-banner
+op.gg##[id*="div-gpt-ad"]
 
 ! - 모두닥
 modoodoc.com###ad-post

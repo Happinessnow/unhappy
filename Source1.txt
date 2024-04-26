@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240422.1
+! Version: 240426.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -668,10 +668,13 @@ widget.publish.link##.pcBanner
 www.stoo.com##img[src^="/banner/"]
 www.stoo.com##img[src^="/ad/"]
 www.stoo.com##.ad_shoopng
+! etnews, 전자신문
+etnews.com##div.ad_300x250
+etnews.com##div.clearfix:nth-of-type(9)
+etnews.com##div.clearfix:nth-of-type(10)
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
 www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
-etnews.com##div.ad_300x250
 kjtimes.com##.ht_right
 kjtimes.com##.top_banner
 @@/openads/*
@@ -899,6 +902,10 @@ item.cjonstyle.com###bannerSwiper
 m.hnsmall.com##.v2.app_setup
 m.hnsmall.com###promotionPopupNew
 m.hnsmall.com##.layerDim
+! skstoa
+www.skstoa.com##.vodBanner
+www.skstoa.com##.js_l_wing_main
+www.skstoa.com##li.ga-event
 ! etc
 lowchart.com##.btn-secondary.btn-fixed-download.btn
 hmall.com##.login-ad
@@ -1430,6 +1437,17 @@ com##[id="jt_popup_container"]
 com##[href*="com/aduit/"]
 com##[href*="com/op/"]
 com##[href*="com/%ec%8a%a4%ed%8f%ac%ec%b8%a0-%ec%98%81%ec%83%81/"]
+! tvroom
+tvroom.org##[href^="/index/banner_click"]
+tvroom.org##[style^="background-color"]
+tvroom.org##[class^="pop-up"]
+! mvking
+mvking.org##[class="popup_warp"]
+! bozatv
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.clearfix
+bozatv99.com,bozatv98.com,bozatv97.com,bozatv96.com,bozatv95.com,bozatv94.com,bozatv93.com,bozatv92.com,bozatv91.com,bozatv90.com,bozatv89.com,bozatv88.com,bozatv87.com,bozatv86.com,bozatv85.com,bozatv84.com,bozatv83.com,bozatv82.com,bozatv81.com,bozatv80.com,bozatv79.com,bozatv78.com,bozatv77.com,bozatv76.com,bozatv75.com,bozatv74.com,bozatv73.com,bozatv72.com,bozatv71.com,bozatv70.com,bozatv69.com##.popup_left
+! tvusan.vip
+tvusan.vip##.videowrapper_pc
 !! tv-etc
 ||tvzota*.com/ad$subdocument
 ||qooqootv*.com/*/event*.png$image
@@ -1739,6 +1757,19 @@ skyve.io##script[src="//ausoafab.net/tag.min.js"]
 a-ha.io##.homeCarousel.headerCarousel
 a-ha.io##.expert-section-wrapper
 a-ha.io##[href="/extras/about-membership"]
+
+! - hanjin.co.kr
+smile.hanjin.co.kr##[src="images/promotion.png"]
+smile.hanjin.co.kr##[src="images/swoop.png"]
+smile.hanjin.co.kr##div:nth-of-type(2)
+smile.hanjin.co.kr##div:nth-of-type(3)
+
+! spaces.im
+spaces.im##[class^="root"] > div[class]
+spaces.im##div[class^=" tiles_wrapper"] > [style="min-height:150px"]
+spaces.im##+js(set, "ads", "mobiads")
+spaces.im##[data-src*="?&valid2=125V180V84V250I0V0V0V0&sign="]
+spaces.im##[id="siteContent"] > div[class^="f"]
 
 ! - Ads Tags, 광고 태그, a-ads
 ||ad.a-ads.com^

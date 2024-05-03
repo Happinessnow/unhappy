@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240426.1
+! Version: 240503.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -620,11 +620,13 @@ wikitree.co.kr##div.content_right_inner:nth-of-type(1)
 wikitree.co.kr##.section_col_ban
 wikitree.co.kr##section.container.section:nth-of-type(5)
 ! yna
+@@||cdp.yna.co.kr^
 yna.co.kr###marketingPlayer
 yna.co.kr##.wrap-header01
 ytn.co.kr##.YTN_CSA_newsletter
 ytn.co.kr##.newsletter
 ytn.co.kr##.top_banner
+yna.co.kr##[id^="div-gpt-ad"]
 star.ytn.co.kr##[title^="하단 광고"]
 ! zdnet
 zdnet.co.kr##.webinar
@@ -672,6 +674,15 @@ www.stoo.com##.ad_shoopng
 etnews.com##div.ad_300x250
 etnews.com##div.clearfix:nth-of-type(9)
 etnews.com##div.clearfix:nth-of-type(10)
+! 아주경제, ajunews.com
+ajunews.com##[id^="div-gpt-ad"]
+ajunews.com##[id^="dcamp_ad"]
+ajunews.com##[class^="ad_"]
+ajunews.com##div[style="height:220px;"]
+ajunews.com##[href^="https://www.compassion.or.kr/sponsor"]
+ajunews.com##.view_banner
+ajunews.com##[class^="banner_"]
+
 ! news-etc
 ||www.businesspost.co.kr/*/banner/*/$image
 www.newsen.com##[src^="//photo.newsen.com/images/2024/ASEA"]
@@ -1123,6 +1134,18 @@ naver.com##.id_comp_guarantee_banner
 naver.com##.id_comp_napp_banner
 naver.com##.MM_GIFT_FLICK_BANNER
 naver.com##.type_load
+! m.place.naver.com
+pcmap.place.naver.com##.l__qc.no_margin.place_section
+m.place.naver.com###visit_tab_top_ad
+m.place.naver.com###home_tab_top_ad
+m.place.naver.com###review_tab_top_ad
+m.place.naver.com###place_tab_top_ad
+m.place.naver.com###feed_tab_top_ad
+m.place.naver.com###timeline_detail_ad
+m.place.naver.com##[id^="FEED_TAB"]
+m.place.naver.com##[id^="REVIEW_PLACE_END"]
+m.place.naver.com##[id^="VISIT_TAB"]
+m.place.naver.com##div[class^="ptr"] > div > div > div > div > div > button > img[src]
 ! news.naver, news
 news.naver.com##._da_banner
 news.naver.com##._MY_CHANNEL_OFFICE_WRAP
@@ -1221,7 +1244,6 @@ mycar.naver.com##a[class^="Banner_article"]
 mycar.naver.com##[class^="FeedCardNationalOilBanner_article"]
 ! naver etc
 m.booking.naver.com##.banner_area
-pcmap.place.naver.com##.l__qc.no_margin.place_section
 media.naver.com##.channel_add_wrap
 premium.naver.com##.bottom_layer
 
@@ -1764,12 +1786,40 @@ smile.hanjin.co.kr##[src="images/swoop.png"]
 smile.hanjin.co.kr##div:nth-of-type(2)
 smile.hanjin.co.kr##div:nth-of-type(3)
 
-! spaces.im
+! - spaces.im
 spaces.im##[class^="root"] > div[class]
 spaces.im##div[class^=" tiles_wrapper"] > [style="min-height:150px"]
 spaces.im##+js(set, "ads", "mobiads")
 spaces.im##[data-src*="?&valid2=125V180V84V250I0V0V0V0&sign="]
 spaces.im##[id="siteContent"] > div[class^="f"]
+
+! - cnet.com
+download.cnet.com##.rv-di-step__container
+download.cnet.com##[rel="dns-prefetch"]
+download.cnet.com##.is-tablet-hidden.is-mobile-hidden
+
+! - softonic
+softonic.kr##.sam-slot
+softonic.kr##.rv-di-modal
+softonic.kr##.sam-slot__content
+
+! - softwareok
+softwareok.com##td:nth-of-type(2) > center
+softwareok.com##center:nth-of-type(2)
+
+! - uptodown, dailyuploads, uploadrar, uplod, dailyenter, douploads, intoupload, workupload
+@@||dailyuploads.net^
+uptodown.com##.login-uptodown
+uptodown.com###credential_picker_container
+uploadrar.com###commonId > [href]
+uploadrar.com##.hide2
+uplod.ws###aswift_0
+uplod.ws###aswift_0_anchor
+uplod.ws###aswift_0_expand
+dailyenter.*##.col-md-4
+douploads.net##[src="/images/StartDownload.gif"]
+intoupload.net##.banneradshome
+workupload.com##[id^="div-gpt-ad"]
 
 ! - Ads Tags, 광고 태그, a-ads
 ||ad.a-ads.com^
@@ -1892,6 +1942,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
+fugitives.com##.code-block
 riskweather.io##[alt="ads"]
 riskweather.io##[class^="w-full bg-white h-[70px]"]
 wareable.com##[id*="div-gpt-ad"]
@@ -1909,12 +1960,7 @@ filetender.com###button
 ||amggsp.com/*.gif$image
 evoload.fun##.header-main
 nextpit.com##aside.swiper-slide
-softonic.kr##.sam-slot
-softonic.kr##.rv-di-modal
-softonic.kr##.sam-slot__content
 paraphrasing.io##.min-h-5
-softwareok.com##td:nth-of-type(2) > center
-softwareok.com##center:nth-of-type(2)
 karanpc.com##.litespeed-loaded.entered.aligncenter
 karanpc.com##[class^="ads-"]
 msnews/edgenext
@@ -1982,21 +2028,13 @@ any.do##.NotificationBarProvider
 apk4all.com##iframe.eww
 codecguide.com##p:nth-of-type(8)
 cutx.me###cookie-pop
-dailyenter.*##.col-md-4
-douploads.net##[src="/images/StartDownload.gif"]
 lrepacks.net##.dle_b_yandex
 lrepacks.net##iframe
 kolompc.com##.alert.cookies-alert
-uploadrar.com###commonId > [href]
-uploadrar.com##.hide2
-uplod.ws###aswift_0
-uplod.ws###aswift_0_anchor
-uplod.ws###aswift_0_expand
 gamingdial.com###col-right-yt
 github.com$@$link[rel="manifest"]
 healthymaster.xyz##div.row:nth-of-type(3)
 instoworld.*###text-2
-intoupload.net##.banneradshome
 ok-name.co.kr##.footerBanner
 streamtape.com##.plyr-overlay
 techyneed.com##iframe
@@ -2031,7 +2069,6 @@ youngja.org##div.row:nth-of-type(4)
 @@||cmp.osano.com^
 @@||code.jquery.com^
 @@||connect.facebook.net^
-@@||dailyuploads.net^
 @@||decide.mixpanel.com^
 @@||files.modyolo.com^
 @@||github.com^

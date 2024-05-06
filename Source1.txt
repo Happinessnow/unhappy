@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240503.1
+! Version: 240507.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1496,7 +1496,8 @@ dropgalaxy.com##div[style^="border:1px"]
 mediafire.com##.CookieAcceptance
 ||www.mediafire.com/widgets/sidebar_promo.php$subdocument
 
-! - terabox / 1024tera
+! - terabox / 1024tera / app:com.dubox.drive
+@@||c-jp.terabox.com^
 ||s2.teraboxcdn.com/fe-opera-static/node-static-v4/fe-webv4-main/img/*.png^$image
 www.terabox.com##img[class="pc-download"]
 www.terabox.com##.notification-wrap

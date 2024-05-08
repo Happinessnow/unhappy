@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240507.2
+! Version: 240508.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1203,13 +1203,11 @@ pay.naver.com##.commonBannerArea
 pay.naver.com##.membership_sc
 pay.naver.com##div.s_sc
 pay.naver.com##div.s_sc:nth-of-type(5)
-orders.pay.naver.com##[class^="MembershipOrderBanner"]
-orders.pay.naver.com##[class^="AiTEMS_article"]
-order.pay.naver.com##._membership_campaign_area
-new-m.pay.naver.com##[class^="SmartChannel_article"]
-new-m.pay.naver.com##[class^="NaverPlusMembership"]
+pay.naver.com##[class^="LoanBanner_article"]
+pay.naver.com##[class^="SmartChannel_article"]
+pay.naver.com##[class^="NaverPlusMembership"]
+pay.naver.com##[class^="shopping_section _shopping_aitems"]
 shopping.naver.com##[class^="OrderDeliverySection_recommend"]
-m.pay.naver.com##[class^="shopping_section _shopping_aitems"]
 ! chzzk
 ||nng-phinf.pstatic.net/*/*_1500x240*.jpg$image
 ||nng-phinf.pstatic.net/*/*_1500x240*.png$image

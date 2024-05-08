@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240508.1
+! Version: 240508.2
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -1348,10 +1348,11 @@ top##.partner-banner-content
 top##.partner-banner-content
 top##.partner-banner-flex:nth-of-type(1)
 top##.partner-banner-flex:nth-of-type(2)
-! 콕콕티비 / cokcoktv.sbs, live, org
-org##.custom_banner_wrap
-sbs##.custom_banner_wrap
-live##.custom_banner_wrap
+! 콕콕티비 / cokcoktv.sbs, live, org, me
+org##[class="custom_banner_wrap"]
+sbs##[class="custom_banner_wrap"]
+live##[class="custom_banner_wrap"]
+me##[class="custom_banner_wrap"]
 ! dasibogo, 다시보고
 *##.wp-block-gallery-1.wp-block-gallery
 ! koreanz

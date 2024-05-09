@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 168 hours
-! Version: 240426.1
+! Version: 240509.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -172,6 +172,7 @@
 ||sweetpie.one^
 
 ! - 기타
+||gossipinvest.com^
 ||adbrix.io^
 ||trace.rememberapp.co.kr^
 ||static.stax.kr^

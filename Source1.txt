@@ -2,7 +2,7 @@
 ! Title: Source1
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 48 hours
-! Version: 240508.2
+! Version: 240515.1
 
 ! - getintoway
 getintoway.com##.wpsafe-top
@@ -226,6 +226,8 @@ nocutnews.co.kr##.slick-slide.nocut
 nocutnews.co.kr##.slick-slide.channel
 nocutnews.co.kr##.slick-slide.rainbow
 ! bing, MSN
+||ntp.msn.com/edge/ntp/*.js^
+||ntp.msn.com/bundles/*/edgechromium^
 bing.com##[id^="nativead"]
 bing.com##[id^="native_ad"]
 bing.com##[class^="native-ad"]
@@ -243,6 +245,7 @@ msn.com##div > [class^="consumption-page-gridarea_eocb_leadgen"] > end-of-conten
 msn.com##div > end-of-content-block[category="others"]
 msn.com##.article-cont-read-button-on-app
 msn.com##social-lead-gen-in-article
+msn.com##.consumption-page-rail-wrapper
 ! xportsnews
 xportsnews.com##.in_200_200
 xportsnews.com###r_ad
@@ -731,6 +734,7 @@ aliexpress.com##.image-poplayer-modal
 ! auction
 auction.co.kr###BAC_AD_ZONE20
 auction.co.kr##.module_slot.promo
+itempage3.auction.co.kr##.plcc_banner
 ! coupang
 @@||/bannerunit/*
 @@||/banner/*$domain=coupang.com
@@ -840,7 +844,12 @@ m.shop.interpark.com##.popupClose
 m.shop.interpark.com##.bottom.popupWrap
 m.shop.interpark.com##.appBanner
 m.shop.interpark.com##.cmBanner
+interpark.com##[class^="event_eventWrap"]
+interpark.com##[class^="eventBanner_eventBannerWrap"]
+shop.interpark.com##[class^="adBanner"]
 shopping.interpark.com##.priceUpper
+mtravel.interpark.com##[class^="rollingBanner"]
+worldshop.interpark.com##[class*="ad_bnnr"]
 ! qoo10
 qoo10.com##.bnnr_area
 qoo10.com##.m_ad_bnnr
@@ -1821,7 +1830,6 @@ intoupload.net##.banneradshome
 workupload.com##[id^="div-gpt-ad"]
 
 ! - Ads Tags, 광고 태그, a-ads
-||ad.a-ads.com^
 a-ads.com##.aa_container
 a-ads.com##.size320x50
 *##.google-ad
@@ -1871,17 +1879,8 @@ a-ads.com##.size320x50
 *###ad_730
 *###ad-box
 ||ad.*.skt-jive.com^
-||ad.3dpop.kr^
-||ad.buzzvil.com^
-||ad.daum.net^
-||adx.adcrony.co.kr^
-||analytics.admob.com^
-||cdn-ao.adison.co^
-||i.uuoobe.com^
 ||images2.imgbox.com/*_o.gif$image
 ||imageaws.popin.cc^
-||koreanzad.xyz/*.gif^$image
-||www.kodcad.kr^
 ||www.play-store.co.kr/ads$subdocument
 /allimg/*/banner*.gif$image
 /banner/*.gif$image
@@ -1941,62 +1940,7 @@ net##.mkt_banner
 *##[href*="hlbam13.com"]
 
 ! - 기타
-fugitives.com##.code-block
-riskweather.io##[alt="ads"]
-riskweather.io##[class^="w-full bg-white h-[70px]"]
-wareable.com##[id*="div-gpt-ad"]
-azapi.apti.co.kr###noticePopup
-cineaste.co.kr##[class^="basic-banner"]
-www.ikea.com###onetrust-consent-sdk
-www.lifewire.com##div[id^="article__broad-video"]
-linktr.ee##div.content-panel.section
-||resource.steelmedia.co.uk/skins$image
-en.wikipedia.org###siteNotice
-www.puresys.net###aiviy-union-ad-2
-filetender.com##.avmov
-filetender.com###button
 @@||api-zero.livere.com/*/comments
-||amggsp.com/*.gif$image
-evoload.fun##.header-main
-nextpit.com##aside.swiper-slide
-paraphrasing.io##.min-h-5
-karanpc.com##.litespeed-loaded.entered.aligncenter
-karanpc.com##[class^="ads-"]
-msnews/edgenext
-msnews/libs^
-msnews/node_modules^
-||ntp.msn.com/edge/ntp/*.js^
-||ntp.msn.com/bundles/*/edgechromium^
-kfdn.co.kr##[href^="/ad_link.php"]
-kfdn.co.kr###ad_link_read
-pirate4all.com##[href^="https://pirate4all.com/out/"]
-daepiso.xyz##.carousel-item
-gsmarena.com##.pt-10.d-flex
-gamemeca.com###sliderBox
-gamemeca.com##.event-right
-phoneppu.com###div_laypopup
-humoruniv.com###choo_web_read_top_wrap
-humoruniv.com##.adsbyadop
-||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
-darkscans.com##.wp-manga.c-top-sidebar.c-sidebar
-asuratoon.com##.ai-sticky-widget
-||i.keezip.com/ad/*
-mvnohub.kr##.head_banner
-arca.live##.ad
-||graph.facebook.com^$domain=graph.facebook.com
-||trace.rememberapp.co.kr^
-dictionary.cambridge.org###onetrust-banner-sdk
-download.cnet.com##.c-adSkyBox
-eyagi.co.kr###event_topbn_wrap
-genie.co.kr##.wrap_layerpopup
-giznext.com##.desktopaddBox
-itnmobile.net##center
-momq.co.kr##.spotBanner
-notion.so##.notification-internal
-savein.io##.sm\:block
-streamtape.com###main-header
-uplus.co.kr##.crad--banner
-weather.go.kr##.on.ba-wrap
 ||*.admakerhelp.com^
 ||*.adpopcorn.com^$important
 ||*.exelbid.com^
@@ -2007,43 +1951,92 @@ weather.go.kr##.on.ba-wrap
 ||*.piclick.kr^
 ||*.snow.me/v1/notice^$app=com.campmobile.snow,important
 ||albarich.com/$image
+||amggsp.com/*.gif$image
 ||ap.tnkfactory.com^
 ||b.cdnst.net/images/speedtestMobileAds^
-||bank-times.com^
 ||catad5959.com/$subdocument
 ||cdn-f.adsmoloco.com^
+||graph.facebook.com^$domain=graph.facebook.com
+||i.keezip.com/ad/*
 ||ifh.cc/*/$image
 ||kingjjal.com/$subdocument
 ||log.snow.me^$app=com.snowcorp.soda.android
+||mdm.alps.llogis.com:*/openui/mdm/*/ads-banner*$image
 ||mplad.ahnlab.com:8880^$important
 ||petzoa.co.kr/$subdocument
+||resource.steelmedia.co.uk/skins$image
 ||rsload.net/images5/$image
 ||scontent.fvca1-*.fna.fbcdn.net/$image
 ||smrmembers-smr.smartmediarep.com^
-||spontaneousguarded.com^
 ||studiouniversal.net/banner$image
-||www.mediacategory.com^
+||trace.rememberapp.co.kr^
 any.do##.NotificationBarProvider
 apk4all.com##iframe.eww
+arca.live##.ad
+asuratoon.com##.ai-sticky-widget
+azapi.apti.co.kr###noticePopup
+br0wsers.com##[id^="div-gpt-ad"]
+cineaste.co.kr##[class^="basic-banner"]
 codecguide.com##p:nth-of-type(8)
 cutx.me###cookie-pop
+daepiso.xyz##.carousel-item
+darkscans.com##.wp-manga.c-top-sidebar.c-sidebar
+dictionary.cambridge.org###onetrust-banner-sdk
+download.cnet.com##.c-adSkyBox
+en.wikipedia.org###siteNotice
+evoload.fun##.header-main
+eyagi.co.kr###event_topbn_wrap
+filetender.com###button
+filetender.com##.avmov
+fugitives.com##.code-block
+gamemeca.com###sliderBox
+gamemeca.com##.event-right
+gamingdial.com###col-right-yt
+genie.co.kr##.wrap_layerpopup
+github.com$@$link[rel="manifest"]
+giznext.com##.desktopaddBox
+gsmarena.com##.pt-10.d-flex
+healthymaster.xyz##div.row:nth-of-type(3)
+humoruniv.com###choo_web_read_top_wrap
+humoruniv.com##.adsbyadop
+instoworld.*###text-2
+itnmobile.net##center
+karanpc.com##.litespeed-loaded.entered.aligncenter
+karanpc.com##[class^="ads-"]
+kfdn.co.kr###ad_link_read
+kfdn.co.kr##[href^="/ad_link.php"]
+kolompc.com##.alert.cookies-alert
+linktr.ee##div.content-panel.section
 lrepacks.net##.dle_b_yandex
 lrepacks.net##iframe
-kolompc.com##.alert.cookies-alert
-gamingdial.com###col-right-yt
-github.com$@$link[rel="manifest"]
-healthymaster.xyz##div.row:nth-of-type(3)
-instoworld.*###text-2
+momq.co.kr##.spotBanner
+msnews/edgenext
+msnews/libs^
+msnews/node_modules^
+mvnohub.kr##.head_banner
+nextpit.com##aside.swiper-slide
+notion.so##.notification-internal
 ok-name.co.kr##.footerBanner
+paraphrasing.io##.min-h-5
+phoneppu.com###div_laypopup
+pirate4all.com##[href^="https://pirate4all.com/out/"]
+riskweather.io##[alt="ads"]
+riskweather.io##[class^="w-full bg-white h-[70px]"]
+savein.io##.sm\:block
+streamtape.com###main-header
 streamtape.com##.plyr-overlay
 techyneed.com##iframe
 trendyflix.xyz##.fb_reset
+uplus.co.kr##.crad--banner
+wareable.com##[id*="div-gpt-ad"]
+weather.go.kr##.on.ba-wrap
 withtalk.*##div.row
+www.ikea.com###onetrust-consent-sdk
+www.lifewire.com##div[id^="article__broad-video"]
+www.puresys.net###aiviy-union-ad-2
 youngja.org##div.row:nth-of-type(4)
+
 ! - 기타 예외
-@@||mon-va.byteoversea.com^$domain=tiktok.com
-@@||/stat.js
-@@||api.onetouch.police.go.kr/mbl/rpt/*
 @@||*.123movies.ag^
 @@||*.amazonaws.com^
 @@||*.christiandate.kr^
@@ -2052,16 +2045,11 @@ youngja.org##div.row:nth-of-type(4)
 @@||*.project-free-tv.ag^
 @@||*.vlitag.com^
 @@||*.yomovies.it^
-@@||[2404:6800:4004:81b::2004]:443^
-@@||[2404:6800:4005:808::2008]:443^
-@@||[2404:6800:4005:808::200e]:443^
-@@||[2404:6800:4005:809::200e]:443^
-@@||[2404:6800:4005:80c::200d]:443^
-@@||[2404:6800:4005:810::200a]:443^
-@@||[2a03:2880:f256:cc:face:b00c:0:43fe]:443^
+@@||/stat.js
 @@||125.145.31.108:10082^
-@@||220.73.135.178:8214^
 @@||1boon.daum.net^
+@@||220.73.135.178:8214^
+@@||api.onetouch.police.go.kr/mbl/rpt/*
 @@||apious.tistory.com/manage
 @@||auth.skt-id.co.kr^
 @@||beacon.shazam.com^
@@ -2082,6 +2070,7 @@ youngja.org##div.row:nth-of-type(4)
 @@||m4ufree.tv^
 @@||mc.albamon.kr^
 @@||mmthcoffee.kokonutstamp.com^
+@@||mon-va.byteoversea.com^$domain=tiktok.com
 @@||outcome-ssp.supersonicads.com^
 @@||ppss.kr/wp-content/$image
 @@||ppss.kr/wp-content/uploads/*
@@ -2098,8 +2087,8 @@ youngja.org##div.row:nth-of-type(4)
 @@||www.sk7mobile.com^
 @@||yellow.contentsfeed.com^
 ! hyundaicard
-@@||appcardapp3.hyundaicard.com^
 @@||ansimclick.hyundaicard.com^
+@@||appcardapp3.hyundaicard.com^
 ! apps
 @@||app.adjust.net.in^
 @@||app-measurement.com^

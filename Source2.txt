@@ -2,7 +2,7 @@
 ! Title: Source2
 ! Homepage: https://open.kakao.com/o/g1O5SExd
 ! Expires: 168 hours
-! Version: 240509.1
+! Version: 240515.1
 
 ! - 쿠팡
 @@||coupangeats.app.link^
@@ -135,7 +135,6 @@
 ||betterday.co.kr^
 
 ! - Ads
-||ad-global-rule.kajicam.com^
 ||ad.*.*.co.kr^
 ||ad.*.*.com^
 ||ad.*.*.net^
@@ -145,6 +144,7 @@
 ||ad89.*.kr^
 ||adam.*.*.net^
 ||adcheck.*.co.kr^
+||ad-global-rule.kajicam.com^
 ||ads.*.*.co.kr^
 ||ads.*.*.com^
 ||ads.*.co.kr^
@@ -154,31 +154,40 @@
 ||adv.*.*.com^
 ||adv.*.co.kr^
 ||adv.*.com^
-||adweb.co.kr^
-||adx-exchange.*.com^
 ||adx.*.co.kr^
+||adx-exchange.*.com^
 ||analytics.ad.*.net^
 ||analytics.admob.com^
-||iuegbxcpsmte.com^
-||seyyumecb.com^
-||mediamarketstream.com^
-||code4us.com^
-||mrgreekroad.com^
-||imadrep.co.kr^
-||reople.co.kr^
-||adpnut.com^
+||ad.3dpop.kr^
+||ad.a-ads.com^
+||ad.buzzvil.com^
+||ad.daum.net^
+||adcrony.co.kr^
+||adison.co^
 ||adjw.co.kr^
+||adpnut.com^
+||adweb.co.kr^
+||analytics.admob.com^
+||bank-times.com^
+||code4us.com^
+||i.uuoobe.com^
+||imadrep.co.kr^
 ||interworksmedia.co.kr^
+||iuegbxcpsmte.com^
+||koreanzad.xyz^
+||lovechoice.co.kr^
+||mediamarketstream.com^
+||mrgreekroad.com^
+||reople.co.kr^
+||seyyumecb.com^
+||spontaneousguarded.com^
 ||sweetpie.one^
+||telegra.ph^$image
+||www.kodcad.kr^
+||www.mediacategory.com^
+||xgo.kr^
 
 ! - 기타
-||gossipinvest.com^
-||adbrix.io^
-||trace.rememberapp.co.kr^
-||static.stax.kr^
-||*.stax.kr^
-||ad-img.*.com^
-||bank-times.com^
 ||*.catad5959.com^
 ||*.cauly.co.kr
 ||*.ctobsnssdk.com^
@@ -192,20 +201,25 @@
 ||*.newscj.com^
 ||*.newsmobile.co.kr^
 ||*.site3.co.kr^
+||*.stax.kr^
 ||1minhumor.co.kr^
 ||a1.asiae.co.kr^
 ||acsta.net^
+||adbrix.io^
+||ad-img.*.com^
 ||api-es.*.net^
+||bank-times.com^
 ||cashbackmall.net^
 ||chulsu.net^
 ||clickmon.co.kr^
 ||crab.baidu.com^
 ||cyad1.*.com^
-||daily-tv.com^
 ||dailyenter.net^
+||daily-tv.com^
 ||filehon.com^
 ||fomo.com^
 ||funnysocial.co.kr^
+||gossipinvest.com^
 ||happyvod.com^
 ||innity.net^
 ||is.snssdk.com^
@@ -227,54 +241,56 @@
 ||soonwe.com^
 ||sspi.adpopcorn.com^
 ||static.mplad.*.com^
+||static.stax.kr^
 ||t.co^
-||tube-ranker.net^
+||trace.rememberapp.co.kr^
 ||tube-box.co.kr^
+||tube-ranker.net^
 ||www.google-analytics.com^
 ||www.jikgu.com^
 ||www.kingjjal.com^
 ||www.mypetcare.co.kr^
 
 ! - 기타
-@@||minepi.com^
-@@||innorame.com^
-@@||pizza.hyundaicard.com^
-@@||ansimclick.hyundaicard.com^
-@@||appcardapp3.hyundaicard.com^
-@@||web.nicepay.co.kr^
-@@||cache.nicepay.co.kr^
-@@||mmthcoffee.kokonutstamp.com^
-@@||frog.editorx.com^
-@@||static.wixstatic.com^
-@@||appsflyer.com^
-@@||api-maps.yandex.ru^
-@@||beacons.gv2.com^
-@@||beacons1.gv2.com^
-@@||beacons2.gv2.com^
-@@||beacons3.gv2.com^
-@@||app-measurement.com^
-@@||cc-api-data.adobe.io^
-@@||31.13.82.52:443^
-@@||cs.whox2.com^
-@@||app.adjust.net.in^
-@@||a2z.a2zapk.com^
-@@||*.vlitag.com^
 @@||*.amazonaws.com^
 @@||*.flurry.com^
 @@||*.president.go.kr^
 @@||*.qoo10.com^
 @@||*.shazam.com^
+@@||*.vlitag.com^
 @@||*.yomovies.it^
+@@||31.13.82.52:443^
+@@||a2z.a2zapk.com^
 @@||accounts.*.com^
+@@||ansimclick.hyundaicard.com^
+@@||api-maps.yandex.ru^
+@@||app.adjust.net.in^
+@@||appcardapp3.hyundaicard.com^
+@@||app-measurement.com^
+@@||appsflyer.com^
 @@||beacons.gcp.gvt2.com^
+@@||beacons.gv2.com^
+@@||beacons1.gv2.com^
+@@||beacons2.gv2.com^
+@@||beacons3.gv2.com^
+@@||cache.nicepay.co.kr^
+@@||cc-api-data.adobe.io^
+@@||cs.whox2.com^
 @@||dmca.com^
 @@||dmm.co.jp^
 @@||dood.video^
 @@||dropgalaxy.com^
+@@||frog.editorx.com^
+@@||innorame.com^
+@@||minepi.com^
 @@||mixdrop.co^
+@@||mmthcoffee.kokonutstamp.com^
 @@||phonearena.com^
+@@||pizza.hyundaicard.com^
 @@||rawdata.kr^
 @@||report.appmetrica.yandex.net^
 @@||scv.band.us^
+@@||static.wixstatic.com^
 @@||syndication.realsrv.com^
 @@||videotongs.com^
+@@||web.nicepay.co.kr^

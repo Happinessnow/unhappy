@@ -1,7 +1,6 @@
 [ Source2 ]
 ! Title: Source2
 ! Homepage: https://github.com/Apious/whoru
-! Expires: 168 hours
 ! Version: 240515.1
 
 ! - 쿠팡

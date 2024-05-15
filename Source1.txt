@@ -1,6 +1,6 @@
 [ Source1 ]
 ! Title: Source1
-! Homepage: https://open.kakao.com/o/g1O5SExd
+! Homepage: https://github.com/Apious/whoru
 ! Expires: 48 hours
 ! Version: 240515.1
 

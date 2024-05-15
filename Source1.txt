@@ -1,7 +1,6 @@
 [ Source1 ]
 ! Title: Source1
 ! Homepage: https://github.com/Apious/whoru
-! Expires: 48 hours
 ! Version: 240515.1
 
 ! - getintoway
